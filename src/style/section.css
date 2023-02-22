@@ -51,10 +51,10 @@
   }
 
   .software-card {
-    width: 210px;
+    width: 260px;
     height: 210px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #F5F5F5;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,8 @@
 
   .iconbox {
     background-color: #fff;
-    width: 38px;
-    height: 38px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,4 +81,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
 }
