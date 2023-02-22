@@ -7,7 +7,7 @@ import TestimonialSlider from "../Elements/TestimonialSlider";
 
 export default function Blog() {
   return (
-    <Wrapper id="blog">
+    <Wrapper id="blog" data-aos="fade-up">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>

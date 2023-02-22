@@ -2,19 +2,19 @@ import React from 'react';
 import styled from 'styled-components';
 import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
+import 'swiper/css'
+import 'swiper/css/autoplay'
 // import Container from 'components/Container';
 import PARTNER_LOGOS from '../../data/OurPartners.json'
 
 export default function OurPartners() {
   return (
-    <PartnersWrapper>
-      <Title>official partners with</Title>
+    <PartnersWrapper className='lightBg py-4'>
+      <Title className='p-4 extraBold'>Tailored Solutions from Our Partners</Title>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
-        spaceBetween={30}
+        spaceBetween={40}
         loop={true}
         autoplay={{ delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
         speed={3000}
@@ -23,11 +23,13 @@ export default function OurPartners() {
           768: { slidesPerView: 4 },
           1025: { slidesPerView: 6 },
         }}
-        className="swiper-wrapper"
+        className="w-75"
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <img src={require('../../assets/img/clients/'+ logo.image)} alt={logo.title} width={128} height={128} />
+          <LogoWrapper className="flexCenter">
+          <ImgStyle src={require('../../assets/img/clients/'+ logo.image)} alt={logo.title} />
+        </LogoWrapper>
           </SwiperSlide>
         ))}
       </Swiper>
@@ -36,20 +38,22 @@ export default function OurPartners() {
 }
 
 const Title = styled.h3`
-  font-size: 1.3rem;
+  font-size: 40px;
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;
   margin-bottom: 2rem;
   text-align: center;
   opacity: 0.8;
+  padding: 8px;
 `;
 
 const PartnersWrapper = styled.div`
   .swiper-wrapper {
     will-change: transform;
     transition-timing-function: linear;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
     user-select: none;
   }
 
@@ -61,4 +65,19 @@ const PartnersWrapper = styled.div`
       opacity: 1;
     }
   }
+`;
+
+const LogoWrapper = styled.div`
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  :focus-visible {
+    outline: none;
+    border: 0px;
+  }
+`;
+const ImgStyle = styled.img`
+  width: 100%;
+  height: 100%;
+  padding: 10%;
 `;

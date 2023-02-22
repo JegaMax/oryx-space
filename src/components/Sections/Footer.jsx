@@ -14,6 +14,8 @@ export default function Contact() {
     <Wrapper>
       <div className="darkBg">
         <div className="container">
+        <h2 className="footer-subtitle">To learn how we can help transform your business, drop us a line. We will
+connect our technology and project experts with you.</h2>
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />
