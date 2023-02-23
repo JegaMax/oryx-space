@@ -51,59 +51,61 @@ export const softwareDevelopment = [
 export const digitalMediaAndServices = [
   {
       "image": "logo01.svg",
-      "title": "Custom Application Development"
+      "title": "Digital Marketing"
     },
     {
       "image": "logo02.svg",
-      "title": "Modernization & Migration"
+      "title": "Social media management"
     },
     {
       "image": "logo03.svg",
-      "title": "Product development"
+      "title": "SEO"
     },
     {
       "image": "logo04.svg",
-      "title": "Support & Maintenance"
+      "title": "Motion Graphics "
     },
     {
       "image": "logo05.svg",
-      "title": "Mobility"
+      "title": "UI/UX designs"
     },
     {
       "image": "logo05.svg",
-      "title": "Low-code platform development"
+      "title": "3D designs"
+    },
+    {
+      "image": "logo05.svg",
+      "title": "Ad Campaigns"
+    },
+    {
+      "image": "logo05.svg",
+      "title": "Content Writing"
     }
 ]
 
 export const whyChooseUs = [
   {
       "image": "logo01.svg",
-      "title": "Custom Application Development",
-      "paragraph": "We offer 24/7 support to rectify the issues you faced for a healthy business outcomes without any interruptions."
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
     },
     {
       "image": "logo02.svg",
-      "title": "Modernization & Migration",
-      "paragraph": "We offer 24/7 support to rectify the issues you faced for a healthy business outcomes without any interruptions."
+      "title": "Rollover support hours so you don’t lose your support hours"
     },
     {
       "image": "logo03.svg",
-      "title": "Product development",
-      "paragraph": "We offer 24/7 support to rectify the issues you faced for a healthy business outcomes without any interruptions."
+      "title": "Periodic health checks – proactively diagnose and resolve potential issues"
     },
     {
       "image": "logo04.svg",
-      "title": "Support & Maintenance",
-      "paragraph": "We offer 24/7 support to rectify the issues you faced for a healthy business outcomes without any interruptions."
+      "title": "Global managed services Center of Excellence (CoE) with flexible costing models based on time and services"
     },
     {
       "image": "logo05.svg",
-      "title": "Mobility",
-      "paragraph": "We offer 24/7 support to rectify the issues you faced for a healthy business outcomes without any interruptions."
+      "title": "Migration, Integration, Admin, Data Management, and enhancements Continuous integration and Continuous Delivery (CI/CD)"
     },
     {
       "image": "logo05.svg",
-      "title": "Low-code platform development",
-      "paragraph": "We offer 24/7 support to rectify the issues you faced for a healthy business outcomes without any interruptions."
+      "title": "Our certified professionals work as part of your business continuity plan"
     }
 ]

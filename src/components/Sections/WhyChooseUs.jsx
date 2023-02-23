@@ -6,10 +6,8 @@ export default function WhyChooseUs() {
   return (
     <Wrapper id="why-choose-us">
       <SubTitle>
-        <h3 className='text-center'>“Whether you want to enhance an
-          existing application
-          or develop a new one, Oryx Space
-          caters to all your business needs.”
+        <h3 className='text-center'>“Our core capabilities in Managed Services Migration, Integration, Admin Services, Data
+Management, Workflow Management, Enhancements and Advisory Services”.
         </h3>
       </SubTitle>
       <div class="ftrsCntnr">
@@ -17,7 +15,7 @@ export default function WhyChooseUs() {
           <div class="lftAdCntnr col-md-6 col-sm-12">
             {whyChooseUs.map((data, index) => (
               <div class="adCard" key={index}>
-                <img src={require('../../assets/img/service/' + data.image)} alt="" />
+                <img src={require('../../assets/img/service/' + data.image)} alt="" data-aos="zoom-in" />
                 <h3>{data.title}</h3>
                 <p>
                   {data.paragraph}
@@ -26,7 +24,7 @@ export default function WhyChooseUs() {
             ))}
           </div>
           <div class="rtAdCntnr col-md-6 col-sm-12">
-            <img src={require("../../assets/img/contact-1.png")} class="w-100 adLpImg" alt="" />
+            <img src={require("../../assets/img/contact-1.png")} class="w-100 adLpImg" alt="" data-aos="fade-up-left" data-aos-duration="2000"/>
           </div>
         </div>
       </div>

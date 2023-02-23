@@ -8,8 +8,8 @@ function GetInTouch() {
 				<div class="row">
 					<div class="col-lg-12">
 						<h1>Future Made Different with Oryx Space !</h1>
-						<div class="description">Being one step ahead of emerging technology is not so important to us. 
-What Matters is always Forge ahead.</div>
+						<div class="description">To learn how we can help transform your business, drop us a line. We will
+connect our technology and project experts with you.</div>
 					</div>
 					
 				</div>

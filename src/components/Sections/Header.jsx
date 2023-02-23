@@ -12,28 +12,29 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
+          <h1 className="extraBold font60">About Oryx Space</h1>
           <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            We are a global information technology services company offering innovative software solutions and services, IT
+            outsourcing, and IT consulting services. Our solutions and services in digitization, automation and AI/ML,
+            Analytics and data Engineering offer cutting-edge benefits such as reducing the time-to-market, meeting critical
+            business needs, and driving transformational growth.
+            Our solutions and services have enabled global organizations to improve internal operations, realize better and
+            richer experiences for customers, and helped organizations expand their market footprint.
           </HeaderP>
-          <BtnWrapper>
-            <FullButton title="Get Started" />
-          </BtnWrapper>
         </div>
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
+                <em>Oryx Space has been leveraging the power of technology to deliver mission-critical IT solutions and
+                  services to businesses, worldwide.</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
