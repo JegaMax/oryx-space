@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'
-import 'swiper/css/autoplay'
 import { partners } from '../AppConstants';
 
 export default function OurPartners() {
@@ -12,22 +11,23 @@ export default function OurPartners() {
       <HeaderInfo>
                     <h1 className="font40 extraBold textCenter">Tailored Solutions from Our Partners</h1>
                 </HeaderInfo>
-      <Swiper
-        modules={[Autoplay]}
+                <Swiper
         slidesPerView={6}
-        spaceBetween={40}
+        spaceBetween={20}
         loop={true}
-        autoplay={{ delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
+        autoplay={{delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
         speed={3000}
         breakpoints={{
           320: { slidesPerView: 2 },
           768: { slidesPerView: 4 },
           1025: { slidesPerView: 6 },
         }}
+        modules={[ Autoplay]}
         className="w-75"
       >
-        {partners.map((logo) => (
-          <SwiperSlide key={logo}>
+        <SwiperSlide className='w-0'></SwiperSlide>
+        {partners.map((logo, index) => (
+          <SwiperSlide key={`slide-${index}`}>
           <LogoWrapper className="flexCenter">
           <ImgStyle src={require('../../assets/img/clients/'+ logo.image)} alt={logo.title} />
         </LogoWrapper>
