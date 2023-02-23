@@ -2,27 +2,25 @@ import React from "react";
 // Sections
 import TopNavbar from "../components/Nav/TopNavbar";
 import Header from "../components/Sections/Header";
-import Services from "../components/Sections/Services";
-import Projects from "../components/Sections/Projects";
-import Blog from "../components/Sections/Blog";
-import Pricing from "../components/Sections/Pricing";
+import WhyChooseUs from "../components/Sections/WhyChooseUs";
 import Footer from "../components/Sections/Footer";
 import OurValue from "../components/Sections/OurValues";
 import OurPartners from "../components/Sections/OurPartners";
-import SoftwareDevelopment from './../components/Sections/SoftwareDevelopment';
+import DigitalMediaServices from '../components/Sections/DigitalMediaServices';
+import AboutUs from "../components/Sections/AboutUs";
+import GetInTouch from "../components/Sections/Get-In-Touch";
 
 export default function Landing() {
   return (
     <>
       <TopNavbar />
       <Header />
-      <Services />
+      <AboutUs/>
       <OurValue />
-      <SoftwareDevelopment />
-      <Projects />
-      <Blog />
-      <Pricing />
+      <DigitalMediaServices />
+      <WhyChooseUs />
       <OurPartners />
+      <GetInTouch />
       <Footer />
     </>
   );

@@ -4,12 +4,14 @@ import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'
 import 'swiper/css/autoplay'
-import { partners } from '../AppCoanstants';
+import { partners } from '../AppConstants';
 
 export default function OurPartners() {
   return (
     <PartnersWrapper className='lightBg py-4'>
-      <Title className='p-4 extraBold'>Tailored Solutions from Our Partners</Title>
+      <HeaderInfo>
+                    <h1 className="font40 extraBold textCenter">Tailored Solutions from Our Partners</h1>
+                </HeaderInfo>
       <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
@@ -35,17 +37,6 @@ export default function OurPartners() {
     </PartnersWrapper>
   );
 }
-
-const Title = styled.h3`
-  font-size: 40px;
-  letter-spacing: 0.02em;
-  line-height: 0;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  text-align: center;
-  opacity: 0.8;
-  padding: 8px;
-`;
 
 const PartnersWrapper = styled.div`
   .swiper-wrapper {
@@ -79,4 +70,10 @@ const ImgStyle = styled.img`
   width: 100%;
   height: 100%;
   padding: 10%;
+`;
+
+const HeaderInfo = styled.div`
+  @media (max-width: 860px) {
+    text-align: center;
+  }
 `;
