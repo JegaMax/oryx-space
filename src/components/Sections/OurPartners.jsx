@@ -4,8 +4,7 @@ import { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'
 import 'swiper/css/autoplay'
-// import Container from 'components/Container';
-import PARTNER_LOGOS from '../../data/OurPartners.json'
+import { partners } from '../AppCoanstants';
 
 export default function OurPartners() {
   return (
@@ -25,7 +24,7 @@ export default function OurPartners() {
         }}
         className="w-75"
       >
-        {PARTNER_LOGOS.map((logo) => (
+        {partners.map((logo) => (
           <SwiperSlide key={logo}>
           <LogoWrapper className="flexCenter">
           <ImgStyle src={require('../../assets/img/clients/'+ logo.image)} alt={logo.title} />

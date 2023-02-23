@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../../style/section.css';
-import Data from '../../data/SoftwareDevelopment.json'
+import { softwareDevelopment } from '../AppCoanstants';
 function SoftwareDevelopment() {
     return (
         <section id="our-values">
@@ -17,7 +17,7 @@ caters to all your business needs.”
 </h3>
                 </SubTitle>
                 <div className="cardscontainer">
-                {Data.map((development) =>(
+                {softwareDevelopment.map((development) =>(
                     <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 py-4 card-container">
                         <div className="software-card">
                             <img className='iconbox' data-aos="fade-right" data-aos-duration="2000" src={require('../../assets/img/development/'+development.image)} alt={development.title}>
