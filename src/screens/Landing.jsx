@@ -9,8 +9,8 @@ import DigitalMediaServices from '../components/Sections/DigitalMediaServices';
 import AboutUs from "../components/Sections/AboutUs";
 import GetInTouch from "../components/Sections/Get-In-Touch";
 import ValueBringing from './../components/Sections/ValueBringing';
-import AtOurGlance from "../components/Sections/AtOurGlance";
 import UpArrow from "../assets/svg/up-arrow.svg"
+import AuditService from "../components/Sections/AuditService";
 
 export default function Landing() {
   return (
@@ -19,7 +19,7 @@ export default function Landing() {
       <Header />
       <AboutUs/>
       <ValueBringing />
-      <AtOurGlance/>
+      <AuditService/>
       <DigitalMediaServices />
       <WhyChooseUs />
       <OurPartners />

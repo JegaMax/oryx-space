@@ -4,7 +4,9 @@
   border-radius: 20px;
 }
 .sub-section .section-title {
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid transparent;
+    border-image: linear-gradient( to right, #9b2920 0%, #ec5022 30%, #f5a21f 70%, #f69420 100% );
+    border-image-slice: 1;
   font-size: 32px;
 }
 .our-value-benefits_content {
@@ -309,7 +311,6 @@
 }
 
 .services .icon-box:hover::before {
-  /* background: #eb1e41; */
   background: linear-gradient( to right, #9b2920 0%, #ec5022 30%, #f5a21f 70%, #f69420 100% );
   top: 0;
   border-radius: 0px;
