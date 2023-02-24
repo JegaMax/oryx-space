@@ -109,3 +109,122 @@ export const whyChooseUs = [
       "title": "Our certified professionals work as part of your business continuity plan"
     }
 ]
+
+export const atOurGlance = [
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+        "animation":"fade-up"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    }
+]

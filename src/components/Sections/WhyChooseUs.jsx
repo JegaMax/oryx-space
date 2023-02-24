@@ -5,8 +5,8 @@ import { whyChooseUs } from "../AppConstants";
 export default function WhyChooseUs() {
   return (
     <Wrapper id="why-choose-us">
-      <SubTitle>
-        <h3 className='text-center'>“Our core capabilities in Managed Services Migration, Integration, Admin Services, Data
+      <SubTitle className="d-flex justify-content-center">
+        <h3 className='text-center w-75'>“Our core capabilities in Managed Services Migration, Integration, Admin Services, Data
 Management, Workflow Management, Enhancements and Advisory Services”.
         </h3>
       </SubTitle>

@@ -130,9 +130,6 @@ const Wrapper = styled.nav`
   padding: 0 30px;
   right: ${(props) => (props.sidebarOpen ? "0px" : "-400px")};
   z-index: 9999;
-  @media (max-width: 400px) {
-    width: 100%;
-  }
 `;
 const SidebarHeader = styled.div`
   padding: 20px 0;
