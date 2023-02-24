@@ -9,28 +9,28 @@ export default function OurPartners() {
   return (
     <PartnersWrapper className='lightBg py-4'>
       <HeaderInfo>
-                    <h1 className="font40 extraBold textCenter">Tailored Solutions from Our Partners</h1>
-                </HeaderInfo>
-                <Swiper
+        <h1 className="font40 extraBold textCenter">Tailored Solutions from Our Partners</h1>
+      </HeaderInfo>
+      <Swiper
         slidesPerView={6}
-        spaceBetween={20}
+        spaceBetween={25}
         loop={true}
-        autoplay={{delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
-        speed={3000}
+        autoplay={{ delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
+        speed={2000}
         breakpoints={{
           320: { slidesPerView: 2 },
           768: { slidesPerView: 4 },
           1025: { slidesPerView: 6 },
         }}
-        modules={[ Autoplay]}
+        modules={[Autoplay]}
         className="w-75"
       >
         <SwiperSlide className='w-0'></SwiperSlide>
         {partners.map((logo, index) => (
           <SwiperSlide key={`slide-${index}`}>
-          <LogoWrapper className="flexCenter">
-          <ImgStyle src={require('../../assets/img/clients/'+ logo.image)} alt={logo.title} />
-        </LogoWrapper>
+            <LogoWrapper className="flexCenter">
+              <ImgStyle src={require('../../assets/img/clients/' + logo.image)} alt={logo.title} />
+            </LogoWrapper>
           </SwiperSlide>
         ))}
       </Swiper>

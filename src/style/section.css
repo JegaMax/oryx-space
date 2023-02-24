@@ -4,7 +4,10 @@
   border-radius: 20px;
 }
 .sub-section .section-title {
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid transparent;
+    border-image: linear-gradient( to right, #9b2920 0%, #ec5022 30%, #f5a21f 70%, #f69420 100% );
+    border-image-slice: 1;
+  font-size: 32px;
 }
 .our-value-benefits_content {
   border-radius: 20px;
@@ -15,7 +18,7 @@
   flex-basis: 32rem;
 }
 
-.our-value-benefits_items {
+.service_items {
   padding: 0.625rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,8 +27,9 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  text-align: left;
 }
-.our-value-benefits_items .benefit {
+.service_items .benefit {
   padding: 0.95rem 0;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 12rem;
@@ -34,20 +38,10 @@
   display: -ms-flexbox;
   display: flex;
 }
-.our-value-benefits_items .benefit img {
+.service_items .benefit img {
   padding: 0 1.1rem 0 0;
   width: auto;
   height: 1.6rem;
-}
-
-@media only screen and (max-width: 970px) {
-  .our-value-benefits {
-    max-height: none !important;
-  }
-  .our-value-benefits_content {
-    width: auto;
-    flex-basis: auto;
-  }
 }
 
 .software-card {
@@ -238,10 +232,6 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b2920',endColorstr='#f69420',GradientType=1);
 }
-.no-gutter-12 [class*="-12"] {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 .letsmake {
   padding-bottom: 80px;
@@ -295,3 +285,71 @@
   padding-bottom: 30px;
 }
 
+        
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  text-align: center;
+}
+
+.services .icon-box::before {
+  content: '';
+  position: absolute;
+  background: #fdeff2;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.4s;
+  z-index: -1;
+}
+
+.services .icon-box:hover::before {
+  background: linear-gradient( to right, #9b2920 0%, #ec5022 30%, #f5a21f 70%, #f69420 100% );
+  top: 0;
+  border-radius: 0px;
+}
+
+.services .icon {
+  margin-bottom: 15px;
+}
+
+.services .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #eb1e41;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services .title a {
+  color: #111;
+}
+
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+  color: #fff;
+}
+
+.services .icon-box:hover .icon i,
+.features .icon-box:hover i,
+.features .icon-box:hover a {
+  color: #fff!important;
+}
