@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../../style/section.css';
-import Risk from '../../assets/img/value/1.png';
-import Cost from '../../assets/img/value/1.png';
-import Business from '../../assets/img/value/1.png';
+import Risk from '../../assets/img/service/1.png';
+import Cost from '../../assets/img/service/1.png';
+import Business from '../../assets/img/service/1.png';
 function ValueBringing() {
     return (
         <section id="digital-media-service lightBg">
@@ -80,12 +80,6 @@ function ValueBringing() {
 export default ValueBringing;
 
 const HeaderInfo = styled.div`
-  @media (max-width: 860px) {
-    text-align: center;
-  }
-`;
-const SubTitle = styled.div`
-margin-top:16px;
   @media (max-width: 860px) {
     text-align: center;
   }
