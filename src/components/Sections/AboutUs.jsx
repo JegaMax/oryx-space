@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useParams } from 'react-router-dom';
 import '../../style/section.css';
+import AboutUsSection from '../AboutUs/AboutUsSection';
 
 function AboutUs() {
+  const { urlParam } = useParams();
     return (
-        <section id="about-us lightBg">
-           
-        </section>
+        <AboutUsSection param={urlParam}/>
     );
 }
 

@@ -228,3 +228,14 @@ export const atOurGlance = [
       ]
     }
 ]
+
+export const aboutUsSections = [
+    {
+    "id" :"",
+    "image": "logo01.svg",
+    "title": "",
+    "url":"",
+    "subTitle":"",
+    "desc":"",
+    }
+]
