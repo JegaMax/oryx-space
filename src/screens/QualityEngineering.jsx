@@ -1,14 +1,14 @@
 import Footer from "../components/Sections/Footer";
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import AboutUsSection from '../components/AboutUs/AboutUsSection';
+import QualityEngineeringSection from "../components/Services/QualityEngineeringSection";
 
-function AboutUs() {
+function QualityEngineering() {
   const { param } = useParams();
   if(param){
     return (
       <>
-        <AboutUsSection param={param}/>
+        <QualityEngineeringSection param={param}/>
         <Footer />
       </>
 
@@ -17,4 +17,4 @@ function AboutUs() {
    return null;
 }
 
-export default AboutUs;
+export default QualityEngineering;

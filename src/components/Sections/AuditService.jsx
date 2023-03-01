@@ -4,20 +4,20 @@ import '../../style/section.css';
 import { auditServices } from '../AppConstants';
 function AuditService() {
     return (
-        <section id="services" class="services pt-5">
+        <section id="services" className="services pt-5">
             <HeaderInfo>
                     <h1 className="font40 extraBold textCenter">Audit Service</h1>
                 </HeaderInfo>
-        <div class="container">
-            <div class="row">
+        <div className="container">
+            <div className="row">
 
                 {
                     auditServices.map((service) => (
-                    <div class="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5">
-                    <div class="icon-box">
-                        <div class="icon"><img src={require('../../assets/img/service/' + service.image)} alt=""/></div>
-                        <h4 class="title">{service.title}</h4>
-                        <p class="description">{service.desc}</p>
+                    <div className="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5">
+                    <div className="icon-box">
+                        <div className="icon"><img src={require('../../assets/img/service/' + service.image)} alt=""/></div>
+                        <h4 className="title">{service.title}</h4>
+                        <p className="description">{service.desc}</p>
                     </div>
                 </div>
                     ))

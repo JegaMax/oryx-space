@@ -14,13 +14,15 @@ const styles = {
     display: { xs: 'none', lg: 'flex' },
     flexGrow: 1,
     textDecoration: 'none',
-    color: '#ffffff'
+    color: '#ffffff',
+    paddingLeft: '64px'
   },
   logoMob: {
     mr: 2,
     display: { xs: 'flex', lg: 'none' },
     flexGrow: 1,
-    textDecoration: 'none'
+    textDecoration: 'none',
+    color: '#ffffff'
   },
 }
 

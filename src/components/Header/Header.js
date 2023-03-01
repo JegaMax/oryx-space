@@ -22,7 +22,7 @@ const Header = () => {
       <Container maxWidth='xl' sx={styles.container}>
         <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)} />
         <Toolbar disableGutters>
-          <Typography variant='h2' component='a' sx={styles.logoDesk} href='/'>
+          <Typography variant='h3' component='a' sx={styles.logoDesk} href='/'>
             Oryx Space
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', lg: 'none' } }}>
@@ -36,7 +36,7 @@ const Header = () => {
             </IconButton>
           </Box>
 
-          <Typography variant='h2' component='a' sx={styles.logoMob} href='/'>
+          <Typography variant='h4' component='a' sx={styles.logoMob} href='/'>
             Oryx Space
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>

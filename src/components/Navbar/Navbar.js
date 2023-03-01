@@ -4,9 +4,9 @@ import { Menu, MenuItem } from "@mui/material";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import ServiceNavItems from '../Nav/ServiceNavItems'
+import ServiceNavItems from './ServiceNavItems'
 import Link from '@mui/material/Link';
-import { aboutUsNavigation } from "../AppConstants";
+import { aboutUsSections } from "../AppConstants";
 
 const styles = {
   btnLink: {
@@ -53,7 +53,7 @@ const Navbar = ({ changeDrawerState }) => {
           }}
           sx={{maxWidth:"calc(100% - 100px)"}}
         >
-          <MenuItem><ServiceNavItems /></MenuItem>
+          <ServiceNavItems />
         </Menu>
       </Box>
       <Box>
@@ -85,8 +85,8 @@ const Navbar = ({ changeDrawerState }) => {
             "aria-labelledby": "basic-button",
           }}
         >{
-            aboutUsNavigation.map((aboutus) => (
-              <MenuItem><Link href={aboutus.href} underline="none" sx={{color:'#0B093B'}} >{aboutus.title}</Link></MenuItem>
+          aboutUsSections.map((aboutus) => (
+              <MenuItem><Link href={aboutus.url} underline="none" sx={{color:'#0B093B'}} >{aboutus.title}</Link></MenuItem>
             ))
           }
 

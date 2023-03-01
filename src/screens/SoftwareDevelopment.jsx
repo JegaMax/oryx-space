@@ -1,14 +1,14 @@
 import Footer from "../components/Sections/Footer";
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import AboutUsSection from '../components/AboutUs/AboutUsSection';
+import SoftwareDevelopmentSection from "../components/Services/SoftwareDevelopmentSection";
 
-function AboutUs() {
+function SoftwareDevelopment() {
   const { param } = useParams();
   if(param){
     return (
       <>
-        <AboutUsSection param={param}/>
+        <SoftwareDevelopmentSection param={param}/>
         <Footer />
       </>
 
@@ -17,4 +17,4 @@ function AboutUs() {
    return null;
 }
 
-export default AboutUs;
+export default SoftwareDevelopment;

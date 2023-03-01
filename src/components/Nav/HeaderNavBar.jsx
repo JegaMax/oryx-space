@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import ServiceNavItems from './ServiceNavItems';
+import ServiceNavItems from '../Navbar/ServiceNavItems';
 import '../../style/header.css'
 import AboutNavItems from './AboutUsNavItems';
 
