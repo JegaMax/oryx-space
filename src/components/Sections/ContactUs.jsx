@@ -4,16 +4,16 @@ import phone from '../../assets/svg/phone.svg';
 import globe from '../../assets/svg/globe.svg';
 
 
-export default function Footer() {
+export default function ContactUs() {
 
 	return (
-		<div className="orange-bg footer">
+		<div className="orange-bg">
 				<p>&nbsp; </p><br />
 				<div className="row letsmake">
 					<div className="col-lg-12">
 						<h3>Let's make something great together</h3>
 					</div>
-					<div className="col-lg-12 col-md-12 d-flex justify-content-md-center">
+					<div className="col-lg-12 col-md-12 d-flex justify-content-md-center mb-3">
 						<div className="icon"><img src={phone} alt="phone" /></div>
 						<h4><span>Call Us:</span>+974 66963360/70977928</h4>
 					</div>

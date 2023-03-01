@@ -10,11 +10,11 @@ export default function WhyChooseUs() {
 Management, Workflow Management, Enhancements and Advisory Services”.
         </h3>
       </SubTitle>
-      <div class="ftrsCntnr">
-        <div class="container row mx-auto">
-          <div class="lftAdCntnr col-md-6 col-sm-12">
+      <div className="ftrsCntnr">
+        <div className="container row mx-auto">
+          <div className="lftAdCntnr col-md-6 col-sm-12">
             {whyChooseUs.map((data, index) => (
-              <div class="adCard" key={index}>
+              <div className="adCard" key={index}>
                 <img src={require('../../assets/img/service/' + data.image)} alt="" data-aos="zoom-in" />
                 <h3>{data.title}</h3>
                 <p>
@@ -23,8 +23,8 @@ Management, Workflow Management, Enhancements and Advisory Services”.
               </div>
             ))}
           </div>
-          <div class="rtAdCntnr col-md-6 col-sm-12">
-            <img src={require("../../assets/img/contact-1.png")} class="w-100 adLpImg" alt="" data-aos="fade-up-left" data-aos-duration="2000"/>
+          <div className="rtAdCntnr col-md-6 col-sm-12">
+            <img src={require("../../assets/img/contact-1.png")} className="w-100 adLpImg" alt="" data-aos="fade-up-left" data-aos-duration="2000"/>
           </div>
         </div>
       </div>

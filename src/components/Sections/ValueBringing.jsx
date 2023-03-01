@@ -11,40 +11,40 @@ function ValueBringing() {
                 <HeaderInfo>
                     <h1 className="font40 extraBold textCenter">The Value we Bring to the Table</h1>
                 </HeaderInfo>
-                <div class="contents">
-                    <div class="container py-3">
-                        <div class="row">
-                            <div class="col-lg-7">
-                                <div class="row">
-                                    <div class="col-lg-6 d-flex justify-content-center">
+                <div className="contents">
+                    <div className="container py-3">
+                        <div className="row">
+                            <div className="col-lg-7">
+                                <div className="row">
+                                    <div className="col-lg-6 d-flex justify-content-center">
 
                                         <div>
-                                            <div class="each-content shadow p-4" data-aos="zoom-in">
-                                                <center><img src={Risk} alt='' class="img-fluid" /></center>
-                                                <h4 class="text-center mt-3 fs-5">Minimizing Risk</h4>
+                                            <div className="each-content shadow p-4" data-aos="zoom-in">
+                                                <center><img src={Risk} alt='' className="img-fluid" /></center>
+                                                <h4 className="text-center mt-3 fs-5">Minimizing Risk</h4>
                                             </div>
-                                            <div class="each-content shadow p-4 mt-5" data-aos="zoom-in" data-aos-delay="350">
-                                                <center><img src={Cost} alt='' class="img-fluid" /></center>
-                                                <h4 class="text-center mt-3 fs-5">Minimizing Cost</h4>
+                                            <div className="each-content shadow p-4 mt-5" data-aos="zoom-in" data-aos-delay="350">
+                                                <center><img src={Cost} alt='' className="img-fluid" /></center>
+                                                <h4 className="text-center mt-3 fs-5">Minimizing Cost</h4>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 d-flex align-items-center justify-content-center mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="500">
-                                        <div class="each-content shadow p-4">
-                                            <center><img src={Business} alt='' class="img-fluid" /></center>
-                                            <h4 class="text-center mt-3 fs-5">Maximizing Business Values</h4>
+                                    <div className="col-lg-6 d-flex align-items-center justify-content-center mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="500">
+                                        <div className="each-content shadow p-4">
+                                            <center><img src={Business} alt='' className="img-fluid" /></center>
+                                            <h4 className="text-center mt-3 fs-5">Maximizing Business Values</h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col lg-5 d-flex align-items-center mt-5 mt-lg-0 text-center text-lg-start" data-aos="fade-up">
-                                {/* <div class="div">
+                            <div className="col lg-5 d-flex align-items-center mt-5 mt-lg-0 text-center text-lg-start" data-aos="fade-up">
+                                {/* <div className="div">
                         <h5>Your Ultimate Platform</h5>
-                        <h1 class="display-4 fw-bold">A Better <span class="text-primary fw-bold">#Website</span> Means
+                        <h1 className="display-4 fw-bold">A Better <span className="text-primary fw-bold">#Website</span> Means
                             a Better User Experience</h1>
                         <h5>We are among the few companies who can provide the Best Website Development Services in
                             Bangalore Karnataka based on the Client requirements at affordable prices.</h5>
-                        <a href="web-development-company-in-bangalore.html" class="btn btn-outline-primary text-black px-5 fs-5 mt-4">READ MORE</a>
+                        <a href="web-development-company-in-bangalore.html" className="btn btn-outline-primary text-black px-5 fs-5 mt-4">READ MORE</a>
                     </div> */}
                                 <div className="sub-section">
                                     <div className="py-md-4">
