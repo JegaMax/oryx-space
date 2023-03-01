@@ -15,7 +15,6 @@ import AuditService from "../components/Sections/AuditService";
 export default function Landing() {
   return (
     <>
-      <TopNavbar />
       <Header />
       <AboutUs/>
       <ValueBringing />

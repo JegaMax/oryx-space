@@ -132,3 +132,34 @@ export const auditServices = [
     "desc": "Formally confirming that your products and services meet all trusted external and internal standards.",
   }
 ]
+
+export const aboutUsNavigation = [
+  {
+    "title": "Corporate Overview",
+    "href": "/about-us/corporate-overview/",
+  },
+  {
+    "title": "Our Services",
+    "href": "/about-us/our-services/",
+  },
+  {
+    "title": "Culture and Values",
+    "href": "/about-us/culture-and-values/",
+  },
+  {
+    "title": "Leadership Team",
+    "href": "/about-us/leadership-team/",
+  },
+  {
+    "title": "Partnerships",
+    "href": "/about-us/partnerships/",
+  },
+  {
+    "title": "Our Quality Standards",
+    "href": "/about-us/our-quality-standards/",
+  },
+  {
+    "title": "Our Commitment",
+    "href": "/about-us/our-commitment/",
+  }
+]

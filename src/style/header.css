@@ -1,0 +1,43 @@
+.sub-menu-wrap ul li {
+   margin-bottom: 5px;
+}
+
+.sub-menu-wrap ul {
+   padding: 10px;
+}
+
+.mega-menu-href-title {
+   font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.navigation-bar{
+   background-color: #e8e8e6;
+}
+
+.main-menu>li> .menu-link {
+   color: #000048;
+   font-weight: 400;
+   line-height: 1;
+   -webkit-transition: all .5s ease;
+   transition: all .5s ease;
+}
+.main-menu-item {
+   padding: 16px;
+   color: #000048;
+   font-weight: 400;
+   line-height: 1;
+   -webkit-transition: all .5s ease;
+   transition: all .5s ease;
+}
+
+.oryx-header ul {
+   list-style: none;
+   margin-bottom: 0;
+}
+
+.service-items:hover  {
+   background-color: #fff;
+}
+
