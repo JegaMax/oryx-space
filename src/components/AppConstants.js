@@ -110,6 +110,135 @@ export const whyChooseUs = [
   }
 ]
 
+export const atOurGlance = [
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+        "animation":"fade-up"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    },
+    {
+      "image": "logo01.svg",
+      "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
+      "desc" :"",
+      "service_items" : [
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        },
+        {
+          "image": "logo01.svg",
+        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
+        }
+      ]
+    }
+]
+
+export const aboutUsSections = [
+    {
+    "id" :"",
+    "image": "logo01.svg",
+    "title": "",
+    "url":"",
+    "subTitle":"",
+    "desc":"",
+    }
+  ]
 export const auditServices = [
   {
     "image": "logo01.svg",
