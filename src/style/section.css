@@ -233,21 +233,18 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b2920',endColorstr='#f69420',GradientType=1);
 }
 
-.letsmake {
-  padding-bottom: 80px;
-}
 .letsmake h3 {
-  font-size: 30px;
+  font-size: 24px;
   color: #ffffff;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .letsmake .icon {
   height: 34px;
   width: 34px;
   border-radius: 17px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   padding: 6px;
   color: #fff;
@@ -256,13 +253,13 @@
   margin-right: 10px;
 }
 .letsmake h4 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   text-align: left;
   line-height: 16px;
 }
 .letsmake h4 span {
-  font-size: 26px;
+  font-size: 22px;
   color: #ffffff;
 }
 .letsmake h4 a {
@@ -275,14 +272,12 @@
 
 .letsmake {
   text-align: center;
+  padding-bottom: 8px;
 }
 .letsmake h4 {
   line-height: normal;
   font-size: 20px;
   font-weight: 700;
-}
-.letsmake {
-  padding-bottom: 30px;
 }
 
         
@@ -415,10 +410,9 @@
 
 .footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
    
   @media (max-width: 1000px) {
-    padding: 70px 30px;
+    padding: 70px 4px;
   }
 }

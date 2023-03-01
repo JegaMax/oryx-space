@@ -236,9 +236,8 @@ export const aboutUsSections = [
     "url": "/about-us/corporate-overview",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["OryxSpace is a global leader in information technology services, offering innovative software solutions and services, IT outsourcing, and IT consulting services to businesses of all sizes. Our cutting-edge solutions and services indigitization, automation, AI/ML analytics, and data engineering enable businesses to reduce their time-to-market, meet critical business needs, and drive transformational growth.",
+      "Since our inception, we have been committed to delivering exceptional quality excellence in everything we do, and our solutions and services have helped organizations across the globe to improve internal operations, enhance customer experiences, and expand their market footprint."]
   },
   {
     "id": "our-services",
@@ -246,9 +245,9 @@ export const aboutUsSections = [
     "url": "/about-us/our-services/",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "culture-and-values",
@@ -256,9 +255,9 @@ export const aboutUsSections = [
     "url": "/about-us/culture-and-values",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "leadership-team",
@@ -266,9 +265,9 @@ export const aboutUsSections = [
     "url": "/about-us/leadership-team",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "partnerships",
@@ -276,9 +275,9 @@ export const aboutUsSections = [
     "url": "/about-us/partnerships",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "our-quality-standards",
@@ -286,9 +285,9 @@ export const aboutUsSections = [
     "url": "/about-us/our-quality-standards",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "our-commitment",
@@ -296,9 +295,9 @@ export const aboutUsSections = [
     "url": "/about-us/our-commitment",
     "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]
 export const auditServices = [
@@ -329,61 +328,61 @@ export const softwareDevelopmentServices = [
     "id": "custom-applications",
     "title": "Custom Applications",
     "url": "/services/software-development/custom-applications",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "modernization-migration",
     "title": "Modernization & Migration",
     "url": "/services/software-development/modernization-migration",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "product-development",
     "title": "Product Development",
     "url": "/services/software-development/product-development",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "support-maintenance",
     "title": "Support & Maintenance",
     "url": "/services/software-development/support-maintenance",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "mobility",
     "title": "Mobility",
     "url": "/services/software-development/mobility",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "low-code",
     "title": "Low Code Platform Development",
     "url": "/services/software-development/low-code",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]
 
@@ -392,41 +391,41 @@ export const qualityEngineeringServices = [
     "id": "qe-consulting-advisory",
     "title": "QE Consulting & Advisory",
     "url": "/services/quality-engineering/qe-consulting-advisory",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "testing-coe",
     "title": "Testing CoE",
     "url": "/services/quality-engineering/testing-coe",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "site-reliability-engineering-sre",
     "title": "Site Reliability Engineering (SRE)",
     "url": "/services/quality-engineering/site-reliability-engineering-sre",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "mobile-application-testing",
     "title": "Mobile Application Testing",
     "url": "/services/quality-engineering/mobile-application-testing",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]
 
@@ -435,41 +434,41 @@ export const digitizationServices = [
     "id": "digital-advisory-services",
     "title": "Digital Advisory Services",
     "url": "/services/digitization/digital-advisory-services",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "software-prototyping",
     "title": "Software Prototyping",
     "url": "/services/digitization/software-prototyping",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "planning-and-execution",
     "title": "Planning & Execution",
     "url": "/services/digitization/planning-and-execution",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "ui-ux-design-and-development-services",
     "title": "UI/UX Services",
     "url": "/services/digitization/ui-ux-design-and-development-services",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]
 
@@ -478,51 +477,51 @@ export const cloudEnablementServices = [
     "id": "cloud-assessment-migration",
     "title": "Cloud Assessment Migration",
     "url": "/services/cloud-enablement/cloud-assessment-migration",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "cloud-infrastructure-services",
     "title": "Cloud Infrastructure Services",
     "url": "/services/cloud-enablement/cloud-infrastructure-services",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "cloud-security-resilience",
     "title": "Cloud Security & Resilience",
     "url": "/services/cloud-enablement/cloud-security-resilience",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "government-cloud-implementation",
     "title": "Government Cloud Implementation",
     "url": "/services/cloud-enablement/government-cloud-implementation",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "cloud-ci-cd",
     "title": "Cloud CI/CD",
     "url": "/services/cloud-enablement/cloud-ci-cd",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]
 
@@ -531,41 +530,41 @@ export const automationServices = [
     "id": "hyperautomation",
     "title": "Hyperautomation",
     "url": "/services/automation-services-solutions/hyperautomation",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "rpa",
     "title": "RPA",
     "url": "/services/automation-services-solutions/rpa",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "bpm",
     "title": "BPM",
     "url": "/services/automation-services-solutions/bpm",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "industrial-systems",
     "title": "Industrial Systems",
     "url": "/services/automation-services-solutions/industrial-systems",
-    "image": "logo01.svg",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]
 
@@ -573,21 +572,21 @@ export const alMlDataEngineeringServices = [
   {
     "id": "ai-ml-analytics",
     "title": "AI/ML and Analytics",
-    "url": "/services/automation-services-solutions/ai-ml-analytics",
-    "image": "logo01.svg",
+    "url": "/services/alml-data-engineering-services/ai-ml-analytics",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   },
   {
     "id": "data-engineering",
     "title": "Data Engineering",
-    "url": "/services/automation-services-solutions/data-engineering",
-    "image": "logo01.svg",
+    "url": "/services/alml-data-engineering-services/data-engineering",
+    "image": "1.png",
     "subTitle": "",
-    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.", 
-    "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
+    "desc": ["Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems."]
   }
 ]

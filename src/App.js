@@ -9,6 +9,10 @@ import AboutUs from "./screens/AboutUs.jsx";
 import SoftwareDevelopment from "./screens/SoftwareDevelopment.jsx";
 import QualityEngineering from "./screens/QualityEngineering.jsx";
 import Header from "./components/Header"
+import Digitalization from "./screens/Digitalization.jsx";
+import CloudEnablement from "./screens/CloudEnablement.jsx";
+import ALMLDataEngineering from "./screens/ALMLDataEngineering.jsx";
+import AutomationService from "./screens/AutomationService.jsx";
 
 export default function App() {
   useEffect(() => {
@@ -31,9 +35,10 @@ export default function App() {
         <Route path="/about-us/:param" element={<AboutUs />} />
         <Route path="/services/software-development/:param" element={<SoftwareDevelopment />} />
         <Route path="/services/quality-engineering/:param" element={<QualityEngineering />} />
-        <Route path="/services/digitization/:param" element={<AboutUs />} />
-        <Route path="/services/cloud-enablement/:param" element={<AboutUs />} />
-        <Route path="/services/automation-services-solutions/:param" element={<AboutUs />} />
+        <Route path="/services/digitization/:param" element={<Digitalization />} />
+        <Route path="/services/cloud-enablement/:param" element={<CloudEnablement />} />
+        <Route path="/services/automation-services-solutions/:param" element={<AutomationService />} />
+        <Route path="/services/alml-data-engineering-services/:param" element={<ALMLDataEngineering />} />
       </Routes>
     </BrowserRouter>
     </>

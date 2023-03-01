@@ -13,7 +13,7 @@ export default function Footer() {
 					<div className="col-lg-12">
 						<h3>Let's make something great together</h3>
 					</div>
-					<div className="col-lg-12 col-md-12 d-flex justify-content-md-center mb-3">
+					<div className="col-lg-12 col-md-12 d-flex justify-content-md-center">
 						<div className="icon"><img src={phone} alt="phone" /></div>
 						<h4><span>Call Us:</span>+974 66963360/70977928</h4>
 					</div>

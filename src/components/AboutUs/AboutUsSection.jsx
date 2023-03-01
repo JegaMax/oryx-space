@@ -134,8 +134,8 @@ function AboutUsSection({ param }) {
                                                         component="p"
                                                         sx={{
                                                             margin: 0,
+                                                            marginBottom: 1,
                                                             fontFamily: "Inter, sans-serif",
-
                                                             lineHeight: "1.6",
                                                             color: "rgb(174, 176, 180)",
                                                             fontWeight: "500",
