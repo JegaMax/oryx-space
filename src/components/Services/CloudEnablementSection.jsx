@@ -150,3 +150,56 @@ function CloudEnablementSection({ param }) {
 }
 
 export default CloudEnablementSection;
+
+// export const Mieter = () => {
+//     const dataMieter = {
+//       Mieter: {
+//         Icons: [
+//           {
+//             icon: "fa fa-comments-o",
+//             title: "Wohnungskriterien",
+//             text: "Wünsche und Kriterien für Deine Wohnung"
+//           },
+//           {
+//             icon: "fa fa-bullhorn",
+//             title: "Mieterprofil",
+//             text: "Angaben zu Deiner Situation"
+//           },
+//           {
+//             icon: "fa fa-group",
+//             title: "Dokumente",
+//             text: "Relevante Dokumente sicher hinterlegen"
+//           },
+//           {
+//             icon: "fa fa-magic",
+//             title: "Anfragen erhalten",
+//             text: "Vermieter fragen Dich an, wenn alles passt!  "
+//           }
+//         ],
+//         CTA: "100% kostenlos"
+//       }
+//     };
+//     return (
+//       <div id="mieter" className="text-center">
+//         <div className="container">
+//           <div className="co>l-md-10 col-md-offset-1 section-title">
+//             <h2>Mieter</h2>
+//           </div>
+//           <div className="row">
+//             {dataMieter?.Mieter?.Icons?.map((d, i) => (
+//               <div key={`${d.title}-${i}`} className="col-xs-12 col-sm-6">
+//                 <i className={d.icon}></i>
+//                 <h3>{d.title}</h3>
+//                 <p>{d.text}</p>
+//               </div>
+//             ))}
+//           </div>
+//           <h3>{dataMieter?.Mieter?.CTA}</h3>
+//           <a href="#mieter" className="btn btn-custom btn-lg">
+//             Ausprobieren
+//           </a>
+//         </div>
+//       </div>
+//     );
+//   };
+  

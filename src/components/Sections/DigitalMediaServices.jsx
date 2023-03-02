@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import '../../style/section.css';
 import { digitalMediaAndServices } from '../AppConstants';
 function SoftwareDevelopment() {
-    return (
+  return (
         <section id="digital-media-service lightBg">
             <div className='p-4 container'>
                 <HeaderInfo>
@@ -19,19 +19,19 @@ caters to all your business needs.”
                 <div className="cardscontainer">
                 {digitalMediaAndServices.map((service, index) =>(
                     <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 py-4 card-container" key={index}>
-                        <div className="software-card">
+              <div className="software-card">
                             <img className='iconbox' data-aos="fade-right" data-aos-duration="2000" src={require('../../assets/img/service/'+service.image)} alt={service.title}>
                             </img>
                             <p className='py-4'>
-                                {service.title}
+                  {service.title}
                             </p>
-                        </div>
+              </div>
                     </div>
-                ))}
+          ))}
                     </div>
-            </div>
-        </section>
-    );
+      </div>
+    </section>
+  );
 }
 
 export default SoftwareDevelopment;
