@@ -1,8 +1,9 @@
 import React from 'react';
 import '../../style/section.css';
-import { Box, Grid, Typography } from "@mui/material";
-import { alMlDataEngineeringServices } from '../AppConstants';
+import { Box, Grid, Typography, CardActionArea, Card, CardMedia, CardContent, Container } from "@mui/material";
+import { alMlDataEngineeringServices, serviceDescriptions } from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
+import ServiceHeader from './ServiceHeader';
 function ALMLDataEngineeringSection({ param }) {
     const selectedService = alMlDataEngineeringServices.find((item) => item['id'] === param);
 
@@ -10,143 +11,60 @@ function ALMLDataEngineeringSection({ param }) {
         .filter((item) => item['id'] !== param)
         .map(({ title, url }) => ({ title, url }));
 
+
     return (
         <>
+            <ServiceHeader description={serviceDescriptions.aiMlDataEngineering} image={selectedService.image} />
             <NavigationTabs navigationLinks={otherSections} />
             <Box
                 sx={{
-                    width: "90%",
-                    paddingLeft: "16px",
-                    paddingRight: "16px",
-                    margin: "0 auto",
-                    paddingTop: {
-                        xs: "32px",
-                        sm: "48px",
-                        md: "64px"
-                    },
-                    paddingBottom: {
-                        xs: "32px",
-                        sm: "48px",
-                        md: "64px"
-                    },
-                    maxWidth: {
-                        sm: "720px",
-                        md: "1236px"
-                    }
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "1.5rem",
+                    textAlign: "center",
+                    p: 3
                 }}
             >
-                <Box>
-                    <Grid
-                        container
-                        spacing={4}
-                        sx={{
-                            boxSizing: "border-box",
-                            display: "flex",
-                            flexFlow: "row wrap",
-                            marginTop: "-32px",
-                            width: "calc(100% + 16px)",
-                            marginLeft: "-32px",
-                            "&>.MuiGrid-item": {
-                                paddingLeft: "32px",
-                                paddingTop: "32px"
-                            }
-                        }}
-                    >
-                        <Grid
-                            container
-                            item
-                            xs={12}
-                            md={6}
-                            sx={{
-                                display: "flex",
-                                flexFlow: "row wrap",
-                                width: "100%",
-                                margin: 0,
-                                justifyContent: "center",
-                                flexBasis: {
-                                    md: "50%"
-                                },
-                                maxWidth: {
-                                    md: "50%"
-                                },
-
-                                flexGrow: {
-                                    md: 0
-                                }
-                            }}
-                        >
-                            <span
-                                className=" lazy-load-image-background blur lazy-load-image-loaded"
-                                style={{ display: "inline-block" }}
-                            >
-                                <img
-                                    class="MuiBox-root css-12j420d"
-                                    src={require('../../assets/img/service/' + selectedService.image)}
-                                />
-                            </span>
-                        </Grid>
-                        <Grid
-                            container
-                            item
-                            xs={12}
-                            md={6}
-                            sx={{
-                                display: "flex",
-                                flexFlow: "row wrap",
-                                width: "100%",
-                                margin: 0,
-                                justifyContent: "center",
-                                flexBasis: {
-                                    md: "50%"
-                                },
-                                maxWidth: {
-                                    md: "50%"
-                                },
-
-                                flexGrow: {
-                                    md: 0
-                                }
-                            }}
-                        >
-                            <Box>
-                                <Typography
-                                    variant="h4"
-                                    component={"h4"}
-                                    sx={{
-                                        fontSize: {
-                                            sm: "1.8219rem",
-                                            md: "2.0243rem",
-                                            fontSize: "1.5625rem"
-                                        },
-                                        margin: "0px 0px 0.35em",
-                                        lineHeight: "1.235",
-                                        fontWeight: "700"
-                                    }}
-                                >
-                                    {selectedService.title}
-                                </Typography>
-                                {
-                                    selectedService.desc.map((content) => (
-                                        <Typography
-                                            variant="body1"
-                                            component={"p"}
-                                            sx={{
-                                                fontSize: "1rem",
-                                                margin: "0px 0px 0.35em",
-                                                lineHeight: "1.5",
-                                                fontWeight: "400"
-                                            }}
-                                        >
-                                            {content}
-                                        </Typography>
-                                    ))}
-                            </Box>
-                        </Grid>
-                    </Grid>
+                <Box textAlign={'center'} mt={4}>
+                    <Typography sx={{ fontWeight: "bold" }} variant="h3">
+                        {selectedService.title}
+                    </Typography>
+                    <Typography variant="subtitle1">
+                        {selectedService.desc}
+                    </Typography>
                 </Box>
+                <Container sx={{ py: 6 }} maxWidth="lg">
+                    <Grid container spacing={4} >
+                        {selectedService.categories.map((category, index) => (
+                            <Grid item xs={12} md={6}>
+                                <CardActionArea>
+                                    <Card sx={{ display: 'flex' }}>
+                                        <CardContent sx={{ flex: 1 }} data-aos="fade-up" data-aos-duration="2000">
+                                            <Typography component="h2" variant="h5">
+                                                {category.title}
+                                            </Typography>
+                                            <Typography variant="subtitle1" paragraph sx={{ textAlign: 'left' }}>
+                                                {category.desc}
+                                            </Typography>
+                                        </CardContent>
+                                        <CardMedia
+                                            component="img"
+                                            sx={{ width: 160, display: { xs: 'none', sm: 'block' } }}
+                                            image={require('../../assets/img/service/' + category.image)}
+                                            alt={category.title}
+                                        />
+                                    </Card>
+                                </CardActionArea>
+                            </Grid>
+                        ))}
+                    </Grid>
+                </Container>
             </Box>
         </>
     );
 }
 
 export default ALMLDataEngineeringSection;
+

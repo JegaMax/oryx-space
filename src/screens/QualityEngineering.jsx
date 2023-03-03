@@ -1,4 +1,4 @@
-import Footer from "../components/Sections/Footer";
+import Footer from "../components/Elements/Footer";
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import QualityEngineeringSection from "../components/Services/QualityEngineeringSection";

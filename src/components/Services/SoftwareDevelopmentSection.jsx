@@ -1,165 +1,68 @@
 import React from 'react';
-import styled from 'styled-components';
 import '../../style/section.css';
-import { Box, Grid, Typography } from "@mui/material";
-import { softwareDevelopmentServices } from '../AppConstants';
+import { Box, Grid, Typography, Avatar, Card, Stack } from "@mui/material";
+import { softwareDevelopmentServices, serviceDescriptions } from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
+import ServiceHeader from './ServiceHeader';
+
 function SoftwareDevelopmentSection({ param }) {
     const selectedService = softwareDevelopmentServices.find((item) => item['id'] === param);
 
     const otherSections = softwareDevelopmentServices
         .filter((item) => item['id'] !== param)
         .map(({ title, url }) => ({ title, url }));
-
+    const cardStyle = {
+        p: 2,
+        my: 2,
+        backgroundColor: '#eee',
+        minHeight: '32rem'
+    };
     return (
         <>
+            <ServiceHeader description={serviceDescriptions.appDevelopment} image={selectedService.image} />
             <NavigationTabs navigationLinks={otherSections} />
             <Box
                 sx={{
-                    width: "90%",
-                    paddingLeft: "16px",
-                    paddingRight: "16px",
-                    margin: "0 auto",
-                    paddingTop: {
-                        xs: "32px",
-                        sm: "48px",
-                        md: "64px"
-                    },
-                    paddingBottom: {
-                        xs: "32px",
-                        sm: "48px",
-                        md: "64px"
-                    },
-                    maxWidth: {
-                        sm: "720px",
-                        md: "1236px"
-                    }
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "1.5rem",
+                    textAlign: "center",
+                    p: 3
                 }}
             >
-                <Box>
-                    <Grid
-                        container
-                        spacing={4}
-                        sx={{
-                            boxSizing: "border-box",
-                            display: "flex",
-                            flexFlow: "row wrap",
-                            marginTop: "-32px",
-                            width: "calc(100% + 16px)",
-                            marginLeft: "-32px",
-                            "&>.MuiGrid-item": {
-                                paddingLeft: "32px",
-                                paddingTop: "32px"
-                            }
-                        }}
-                    >
-                        <Grid
-                            container
-                            item
-                            xs={12}
-                            md={6}
-                            sx={{
-                                display: "flex",
-                                flexFlow: "row wrap",
-                                width: "100%",
-                                margin: 0,
-                                justifyContent: "center",
-                                flexBasis: {
-                                    md: "50%"
-                                },
-                                maxWidth: {
-                                    md: "50%"
-                                },
-
-                                flexGrow: {
-                                    md: 0
-                                }
-                            }}
-                        >
-                            <span
-                                className=" lazy-load-image-background blur lazy-load-image-loaded"
-                                style={{ display: "inline-block" }}
-                            >
-                                <img
-                                    class="MuiBox-root css-12j420d"
-                                    src={require('../../assets/img/service/' + selectedService.image)}
-                                />
-                            </span>
+                <Typography sx={{ fontWeight: "bold" }} variant="h3">
+                    {selectedService.title}
+                </Typography>
+                <Typography variant="subtitle1">
+                    {selectedService.desc}
+                </Typography>
+                <Grid
+                    container
+                    direction={{ xs: "column", md: "row" }}
+                    justifyContent="center"
+                    alignItems="center"
+                    spacing={4}
+                    sx={{ maxWidth: "75rem", display: 'flex', flexWrap: 'wrap' }}
+                >
+                    {selectedService.categories.map((category) => (
+                        <Grid item xs={4} sx={{ flexGrow: 1, height: '100%' }}>
+                            <Card sx={cardStyle}>
+                                <Stack justifyContent="center" alignItems="center" spacing={2} data-aos="fade-right" data-aos-duration="2000">
+                                    <Avatar sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
+                                    <Typography variant="h5">{category.title}</Typography>
+                                    <Typography sx={{ lineHeight: "2", color: "gray", textAlign: "left", }}>
+                                        {category.desc}
+                                    </Typography>
+                                </Stack>
+                            </Card>
                         </Grid>
-                        <Grid
-                            container
-                            item
-                            xs={12}
-                            md={6}
-                            sx={{
-                                display: "flex",
-                                flexFlow: "row wrap",
-                                width: "100%",
-                                margin: 0,
-                                justifyContent: "center",
-                                flexBasis: {
-                                    md: "50%"
-                                },
-                                maxWidth: {
-                                    md: "50%"
-                                },
-
-                                flexGrow: {
-                                    md: 0
-                                }
-                            }}
-                        >
-                            <Box>
-                                <Typography
-                                    variant="h4"
-                                    component={"h4"}
-                                    sx={{
-                                        fontSize: {
-                                            sm: "1.8219rem",
-                                            md: "2.0243rem",
-                                            fontSize: "1.5625rem"
-                                        },
-                                        margin: "0px 0px 0.35em",
-                                        lineHeight: "1.235",
-                                        fontWeight: "700"
-                                    }}
-                                >
-                                    {selectedService.title}
-                                </Typography>
-                                {
-                                    selectedService.desc.map((content) => (
-                                        <Typography
-                                            variant="body1"
-                                            component={"p"}
-                                            sx={{
-                                                fontSize: "1rem",
-                                                margin: "0px 0px 0.35em",
-                                                lineHeight: "1.5",
-                                                fontWeight: "400"
-                                            }}
-                                        >
-                                            {content}
-                                        </Typography>
-                                    ))}
-                            </Box>
-                        </Grid>
-                    </Grid>
-                </Box>
+                    ))}
+                </Grid>
             </Box>
         </>
     );
 }
 
 export default SoftwareDevelopmentSection;
-
-const HeaderInfo = styled.div`
-  @media (max-width: 860px) {
-    text-align: center;
-  }
-`;
-const SubTitle = styled.div`
-margin-top:16px;
-  @media (max-width: 860px) {
-    text-align: center;
-  }
-`;
