@@ -33,7 +33,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about-us/:param" element={<AboutUs />} />
-        <Route path="/services/software-development/:param" element={<SoftwareDevelopment />} />
+        <Route path="/services/app-development-modernization/:param" element={<SoftwareDevelopment />} />
         <Route path="/services/quality-engineering/:param" element={<QualityEngineering />} />
         <Route path="/services/digitization/:param" element={<Digitalization />} />
         <Route path="/services/cloud-enablement/:param" element={<CloudEnablement />} />

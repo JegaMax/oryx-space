@@ -13,9 +13,9 @@ function ServiceNavItems() {
 			bgcolor: 'background.paper',
 			borderRadius: 1,
 		}}>
-			<Grid md={4} xs={12}>
+			<Grid md={4} xs={12} container wrap="nowrap">
 				<Box>
-					<Typography variant='h6'>Software Development</Typography>
+					<Typography variant='h6'>App Development and Modernization</Typography>
 					<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
 						{
 							softwareDevelopmentServices.map((development) => (
@@ -29,7 +29,7 @@ function ServiceNavItems() {
 					</List>
 				</Box>
 			</Grid>
-			<Grid md={4} xs={12}>
+			<Grid md={4} xs={12} container wrap="nowrap">
 				<Box>
 					<Typography variant='h6'>Quality Engineering</Typography>
 					<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -45,7 +45,7 @@ function ServiceNavItems() {
 					</List>
 				</Box>
 			</Grid>
-			<Grid md={4} xs={12}>
+			<Grid md={4} xs={12} container wrap="nowrap">
 				<Box>
 					<Typography variant='h6'>Digitization</Typography>
 					<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -61,7 +61,7 @@ function ServiceNavItems() {
 					</List>
 				</Box>
 			</Grid>
-			<Grid md={4} xs={12}>
+			<Grid md={4} xs={12} container wrap="nowrap">
 				<Box>
 					<Typography variant='h6'>Cloud Enablement</Typography>
 					<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -77,7 +77,7 @@ function ServiceNavItems() {
 					</List>
 				</Box>
 			</Grid>
-			<Grid md={4} xs={12}>
+			<Grid md={4} xs={12} container wrap="nowrap">
 				<Box>
 					<Typography variant='h6'>Automation Services &amp; Solutions</Typography>
 					<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
@@ -93,7 +93,7 @@ function ServiceNavItems() {
 					</List>
 				</Box>
 			</Grid>
-			<Grid md={4} xs={12}>
+			<Grid md={4} xs={12} container wrap="nowrap">
 				<Box>
 					<Typography variant='h6'>AI/ML, Analytics, &amp; Data Engineering</Typography>
 					<List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>

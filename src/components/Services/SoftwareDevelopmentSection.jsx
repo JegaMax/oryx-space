@@ -1,9 +1,8 @@
 import React from 'react';
-import { useState } from 'react';
 import styled from 'styled-components';
 import '../../style/section.css';
 import { Box, Grid, Typography, Avatar, Card, Stack } from "@mui/material";
-import { softwareDevelopmentServices } from '../AppConstants';
+import { softwareDevelopmentServices, serviceDescriptions } from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
 
 function SoftwareDevelopmentSection({ param }) {
@@ -28,7 +27,7 @@ function SoftwareDevelopmentSection({ param }) {
     const cardStyle = {
         p: 2,
         my: 2,
-        backgroundColor: '#e1d2d2'
+        backgroundColor: '#eee'
     };
     return (
         <>
@@ -43,7 +42,7 @@ function SoftwareDevelopmentSection({ param }) {
                                 fontSize: { xs: "1em", sm: "1.5em", lg: "2em" },
                             }}
                         >
-                            {selectedService.desc}
+                            {serviceDescriptions.appDevelopment}
                         </Typography>
                     </Box>
 
@@ -64,6 +63,9 @@ function SoftwareDevelopmentSection({ param }) {
                 <Typography sx={{ fontWeight: "bold" }} variant="h3">
                     {selectedService.title}
                 </Typography>
+                <Typography variant="subtitle1">
+                    {selectedService.desc}
+                </Typography>
                 <Grid
                     container
                     direction={{ xs: "column", md: "row" }}
@@ -78,11 +80,10 @@ function SoftwareDevelopmentSection({ param }) {
                                 <Card sx={cardStyle}>
                                     <Stack justifyContent="center" alignItems="center" spacing={2}>
                                         <Avatar sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
-                                        <Typography variant="h5">{category.name}</Typography>
-                                        <Typography sx={{ lineHeight: "2", color: "gray" }}>
+                                        <Typography variant="h5">{category.title}</Typography>
+                                        <Typography sx={{ lineHeight: "2", color: "gray", textAlign: "left", }}>
                                             {category.desc}
                                         </Typography>
-
                                     </Stack>
                                 </Card>
                             </Grid>

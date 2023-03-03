@@ -44,45 +44,37 @@ function QualityEngineeringSection({ param }) {
                 </Box>
             </Grid>
             <NavigationTabs navigationLinks={otherSections} />
-            <Box
-                sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    gap: "1.5rem",
-                    textAlign: "center",
-                    p: 3
-                }}
-            >
                 <Typography sx={{ fontWeight: "bold" }} variant="h3">
                     {selectedService.title}
                 </Typography>
+                <Typography variant="subtitle1">
+                    {selectedService.desc}
+                </Typography>
+                <Grid
+                    container
+                    item
+                    xs={12}
+                    md={6}
+                    sx={{
+                        display: "flex",
+                        flexFlow: "row wrap",
+                        width: "100%",
+                        margin: 0,
+                        justifyContent: "center",
+                        flexBasis: {
+                            md: "50%"
+                        },
+                        maxWidth: {
+                            md: "50%"
+                        },
+
+                        flexGrow: {
+                            md: 0
+                        }
+                    }}
+                >
                 {
                     selectedService.categories.map((category) => (
-                        <Box
-                            sx={{
-                                width: "90%",
-                                paddingLeft: "16px",
-                                paddingRight: "16px",
-                                margin: "0 auto",
-                                paddingTop: {
-                                    xs: "32px",
-                                    sm: "48px",
-                                    md: "64px"
-                                },
-                                paddingBottom: {
-                                    xs: "32px",
-                                    sm: "48px",
-                                    md: "64px"
-                                },
-                                maxWidth: {
-                                    sm: "720px",
-                                    md: "1236px"
-                                }
-                            }}
-                        >
-                            <Box>
                                 <Grid
                                     container
                                     spacing={4}
@@ -97,7 +89,8 @@ function QualityEngineeringSection({ param }) {
                                             paddingLeft: "32px",
                                             paddingTop: "32px"
                                         }
-                                    }}
+                                    }}xs={12}
+                                    md={6}
                                 >
                                     <Grid
                                         container
@@ -129,6 +122,7 @@ function QualityEngineeringSection({ param }) {
                                             <img
                                                 class="MuiBox-root css-12j420d"
                                                 src={require('../../assets/img/service/' + category.image)}
+                                                alt={category.title}
                                             />
                                         </span>
                                     </Grid>
@@ -167,7 +161,8 @@ function QualityEngineeringSection({ param }) {
                                                     },
                                                     margin: "0px 0px 0.35em",
                                                     lineHeight: "1.235",
-                                                    fontWeight: "700"
+                                                    fontWeight: "700",
+                                                    textAlign: "left"
                                                 }}
                                             >
                                                 {category.title}
@@ -180,7 +175,8 @@ function QualityEngineeringSection({ param }) {
                                                     fontSize: "1rem",
                                                     margin: "0px 0px 0.35em",
                                                     lineHeight: "1.5",
-                                                    fontWeight: "400"
+                                                    fontWeight: "400",
+                                                    textAlign: "left"
                                                 }}
                                             >
                                                 {category.desc}
@@ -188,10 +184,8 @@ function QualityEngineeringSection({ param }) {
                                         </Box>
                                     </Grid>
                                 </Grid>
-                            </Box>
-                        </Box>
                     ))}
-            </Box>
+            </Grid>
         </>
     );
 }

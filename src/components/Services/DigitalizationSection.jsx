@@ -62,150 +62,20 @@ function DigitalizationSection({ param }) {
                 <Typography sx={{ fontWeight: "bold" }} variant="h3">
                     {selectedService.title}
                 </Typography>
-                <div className="cardscontainer">
-                    {selectedService.categories.map((category, index) => (
-                        <Box
-                        sx={{
-                            width: "90%",
-                            paddingLeft: "16px",
-                            paddingRight: "16px",
-                            margin: "0 auto",
-                            paddingTop: {
-                                xs: "32px",
-                                sm: "48px",
-                                md: "64px"
-                            },
-                            paddingBottom: {
-                                xs: "32px",
-                                sm: "48px",
-                                md: "64px"
-                            },
-                            maxWidth: {
-                                sm: "720px",
-                                md: "1236px"
-                            }
-                        }}
-                    >
-                        <Box>
-                            <Grid
-                                container
-                                spacing={4}
-                                sx={{
-                                    boxSizing: "border-box",
-                                    display: "flex",
-                                    flexFlow: "row wrap",
-                                    marginTop: "-32px",
-                                    width: "calc(100% + 16px)",
-                                    marginLeft: "-32px",
-                                    "&>.MuiGrid-item": {
-                                        paddingLeft: "32px",
-                                        paddingTop: "32px"
-                                    }
-                                }}
-                            >
-                                <Grid
-                                    container
-                                    item
-                                    xs={12}
-                                    md={6}
-                                    sx={{
-                                        display: "flex",
-                                        flexFlow: "row wrap",
-                                        width: "100%",
-                                        margin: 0,
-                                        justifyContent: "center",
-                                        flexBasis: {
-                                            md: "50%"
-                                        },
-                                        maxWidth: {
-                                            md: "50%"
-                                        },
-
-                                        flexGrow: {
-                                            md: 0
-                                        }
-                                    }}
-                                >
-                                    <span
-                                        className=" lazy-load-image-background blur lazy-load-image-loaded"
-                                        style={{ display: "inline-block" }}
-                                    >
-                                        <img
-                                            class="MuiBox-root css-12j420d"
-                                            src={require('../../assets/img/service/' + category.image)}
-                                        />
-                                    </span>
-                                </Grid>
-                                <Grid
-                                    container
-                                    item
-                                    xs={12}
-                                    md={6}
-                                    sx={{
-                                        display: "flex",
-                                        flexFlow: "row wrap",
-                                        width: "100%",
-                                        margin: 0,
-                                        justifyContent: "center",
-                                        flexBasis: {
-                                            md: "50%"
-                                        },
-                                        maxWidth: {
-                                            md: "50%"
-                                        },
-
-                                        flexGrow: {
-                                            md: 0
-                                        }
-                                    }}
-                                >
-                                    <img className='iconbox' data-aos="fade-right" data-aos-duration="2000" src={require('../../assets/img/service/' + category.image)} alt={category.title}>
-                                </img>
-                                    <Box>
-                                        <Typography
-                                            variant="h5"
-                                            component={"h5"}
-                                            sx={{
-                                                fontSize: {
-                                                    sm: "1.8219rem",
-                                                    md: "2.0243rem",
-                                                    fontSize: "1.5625rem"
-                                                },
-                                                margin: "0px 0px 0.35em",
-                                                lineHeight: "1.235",
-                                                fontWeight: "700"
-                                            }}
-                                        >
-                                            {category.title}
-                                        </Typography>
-
-                                        <Typography
-                                            variant="body1"
-                                            component={"p"}
-                                            sx={{
-                                                fontSize: "1rem",
-                                                margin: "0px 0px 0.35em",
-                                                lineHeight: "1.5",
-                                                fontWeight: "400"
-                                            }}
-                                        >
-                                            {category.desc}
-                                        </Typography>
-                                    </Box>
-                                </Grid>
-                            </Grid>
-                        </Box>
-                    </Box>
-                       
-                    ))}
-                    <Grid
-                    container
-                    direction={{ xs: "column", md: "row" }}
-                    justifyContent="center"
-                    alignItems="center"
-                    spacing={4}
-                    sx={{ maxWidth: "75rem" }}
-                >
+                <Typography variant="subtitle1">
+                    {selectedService.desc}
+                </Typography>
+                <Box
+                sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "1.5rem",
+                    textAlign: "center",
+                    p: 3
+                }}
+            >
                     {
                         selectedService.categories.map((category) => (
                             <Grid item xs={4}>
@@ -246,8 +116,7 @@ function DigitalizationSection({ param }) {
                                 </Card>
                             </Grid>
                         ))}
-                </Grid>
-                </div>
+                        </Box>
             </Box>
         </>
     );
