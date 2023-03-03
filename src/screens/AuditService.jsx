@@ -1,14 +1,14 @@
 import Footer from "../components/Elements/Footer";
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import DigitalizationSection from "../components/Services/DigitalizationSection";
+import AuditServiceSection from "../components/Services/AuditServiceSection";
 
-function Digitalization() {
+function AuditService() {
   const { param } = useParams();
   if(param){
     return (
       <>
-        <DigitalizationSection param={param}/>
+        <AuditServiceSection param={param}/>
         <Footer />
       </>
 
@@ -17,4 +17,4 @@ function Digitalization() {
    return null;
 }
 
-export default Digitalization;
+export default AuditService;

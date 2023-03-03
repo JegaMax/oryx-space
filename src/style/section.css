@@ -431,3 +431,30 @@ main {
     url("../assets//img/service/1.png")
       center / cover no-repeat;
 }
+
+.about-info-card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.about-info-card:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.1, 1.1);
+  transition: 0.3s all ease-in-out;
+}
+
+.feature1-image{
+  width: 100%;
+  margin-left: 7%;
+}
+.feature2-image{
+  width: 80%;
+  margin-right: 7%;
+}
+@media screen and (max-width:600px) {
+  .feature1-image{
+    margin-left: 0%;
+  }
+  .feature2-image{
+    width: 100%;
+    margin-right: 0%;
+  }
+}

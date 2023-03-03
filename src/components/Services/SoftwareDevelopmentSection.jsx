@@ -27,13 +27,14 @@ function SoftwareDevelopmentSection({ param }) {
     const cardStyle = {
         p: 2,
         my: 2,
-        backgroundColor: '#eee'
+        backgroundColor: '#eee',
+        minHeight: '32rem'
     };
     return (
         <>
             <Grid>
                 <Box sx={main}>
-                    <Box sx={{ p: { xs: 5, sm: 3, lg: 5, width:'60%' } }}>
+                    <Box sx={{ p: { xs: 5, sm: 3, lg: 5, width: '60%' } }}>
                         <Typography
                             color="secondary.dark"
                             sx={{
@@ -72,22 +73,21 @@ function SoftwareDevelopmentSection({ param }) {
                     justifyContent="center"
                     alignItems="center"
                     spacing={4}
-                    sx={{ maxWidth: "75rem" }}
+                    sx={{ maxWidth: "75rem", display: 'flex', flexWrap: 'wrap' }}
                 >
-                    {
-                        selectedService.categories.map((category) => (
-                            <Grid item xs={4}>
-                                <Card sx={cardStyle}>
-                                    <Stack justifyContent="center" alignItems="center" spacing={2}>
-                                        <Avatar sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
-                                        <Typography variant="h5">{category.title}</Typography>
-                                        <Typography sx={{ lineHeight: "2", color: "gray", textAlign: "left", }}>
-                                            {category.desc}
-                                        </Typography>
-                                    </Stack>
-                                </Card>
-                            </Grid>
-                        ))}
+                    {selectedService.categories.map((category) => (
+                        <Grid item xs={4} sx={{ flexGrow: 1, height: '100%' }}>
+                            <Card sx={cardStyle}>
+                                <Stack justifyContent="center" alignItems="center" spacing={2}>
+                                    <Avatar sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
+                                    <Typography variant="h5">{category.title}</Typography>
+                                    <Typography sx={{ lineHeight: "2", color: "gray", textAlign: "left", }}>
+                                        {category.desc}
+                                    </Typography>
+                                </Stack>
+                            </Card>
+                        </Grid>
+                    ))}
                 </Grid>
             </Box>
         </>

@@ -1,14 +1,14 @@
 import Footer from "../components/Elements/Footer";
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import DigitalizationSection from "../components/Services/DigitalizationSection";
+import BusinessProcessSection from "../components/Services/BusinessProcessSection";
 
-function Digitalization() {
+function BusinessProcess() {
   const { param } = useParams();
   if(param){
     return (
       <>
-        <DigitalizationSection param={param}/>
+        <BusinessProcessSection param={param}/>
         <Footer />
       </>
 
@@ -17,4 +17,4 @@ function Digitalization() {
    return null;
 }
 
-export default Digitalization;
+export default BusinessProcess;

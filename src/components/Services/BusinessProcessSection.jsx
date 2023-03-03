@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../style/section.css';
-import { Box, Grid, Typography, CardActionArea, Card, CardMedia, CardContent, Container } from "@mui/material";
-import { alMlDataEngineeringServices, serviceDescriptions } from '../AppConstants';
+import { Box, Grid, Typography, Card, CardMedia, CardContent, Container } from "@mui/material";
+import { businessProcessServices, serviceDescriptions } from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
-function ALMLDataEngineeringSection({ param }) {
-    const selectedService = alMlDataEngineeringServices.find((item) => item['id'] === param);
+function BusinessProcessSection({ param }) {
+    const selectedService = businessProcessServices.find((item) => item['id'] === param);
 
-    const otherSections = alMlDataEngineeringServices
+    const otherSections = businessProcessServices
         .filter((item) => item['id'] !== param)
         .map(({ title, url }) => ({ title, url }));
     const main = {
@@ -47,7 +47,7 @@ function ALMLDataEngineeringSection({ param }) {
                                 fontSize: { xs: "1em", sm: "1.5em", lg: "2em" },
                             }}
                         >
-                            {serviceDescriptions.aiMlDataEngineering}
+                            {serviceDescriptions.businessProcessServices}
                         </Typography>
                     </Box>
 
@@ -73,33 +73,36 @@ function ALMLDataEngineeringSection({ param }) {
                 </Typography>
                 <Container sx={{ py: 8 }} maxWidth="lg">
                     <Grid container spacing={4} >
-                        {selectedService.categories.map((category, index) => (
-                            <Grid item xs={12} md={6}>
-                                <CardActionArea>
-                                    <Card sx={{ display: 'flex' }}>
-                                        <CardContent sx={{ flex: 1 }}>
-                                            <Typography component="h2" variant="h5">
-                                                {category.title}
-                                            </Typography>
-                                            <Typography variant="subtitle1" paragraph sx={{textAlign:'left'}}>
-                                                {category.desc}
-                                            </Typography>
-                                        </CardContent>
-                                        <CardMedia
-                                            component="img"
-                                            sx={{ width: 160, display: { xs: 'none', sm: 'block' } }}
-                                            image={require('../../assets/img/service/' + category.image)}
-                                            alt={category.title}
-                                        />
-                                    </Card>
-                                </CardActionArea>
-                            </Grid>
-                        ))}
-                    </Grid>
-                </Container>
+            {selectedService.categories.map((category, index) => (
+              <Grid item key={index} xs={12} sm={6} md={4}>
+                <Card
+                  sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+                >
+                  <CardMedia
+                    component="img"
+                    sx={{
+                      pt: 2,
+                    }}
+                    image={require('../../assets/img/service/' + category.image)}
+                    alt={category.title}
+                  />
+                  <CardContent sx={{ flexGrow: 1 }}>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      {category.title}
+                    </Typography>
+                    <Typography sx={{textAlign:'left'}}>
+                     {category.desc}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
+          </Container>
             </Box>
         </>
     );
 }
 
-export default ALMLDataEngineeringSection;
+export default BusinessProcessSection;
+  

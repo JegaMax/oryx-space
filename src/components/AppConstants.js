@@ -306,7 +306,7 @@ export const aboutUsSections = [
       "Our commitment to sustainability and corporate responsibility is reflected in everything we do, from our business practices to our community outreach initiatives. We are proud to be a company that is making a positive impact on the world."]
   }
 ]
-export const auditServices = [
+export const serviceOffering = [
   {
     "image": "logo01.svg",
     "title": "Assurance",
@@ -586,192 +586,6 @@ export const digitizationServices = [
   }
 ]
 
-export const cloudEnablementServices = [
-  {
-    "id": "cloud-assessment-migration",
-    "title": "Cloud Assessment Migration",
-    "url": "/services/cloud-enablement/cloud-assessment-migration",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "cloud-infrastructure-services",
-    "title": "Cloud Infrastructure Services",
-    "url": "/services/cloud-enablement/cloud-infrastructure-services",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "cloud-security-resilience",
-    "title": "Cloud Security & Resilience",
-    "url": "/services/cloud-enablement/cloud-security-resilience",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "government-cloud-implementation",
-    "title": "Government Cloud Implementation",
-    "url": "/services/cloud-enablement/government-cloud-implementation",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "cloud-ci-cd",
-    "title": "Cloud CI/CD",
-    "url": "/services/cloud-enablement/cloud-ci-cd",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  }
-]
-
-export const automationServices = [
-  {
-    "id": "hyperautomation",
-    "title": "Hyperautomation",
-    "url": "/services/automation-services-solutions/hyperautomation",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "rpa",
-    "title": "RPA",
-    "url": "/services/automation-services-solutions/rpa",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "bpm",
-    "title": "BPM",
-    "url": "/services/automation-services-solutions/bpm",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "industrial-systems",
-    "title": "Industrial Systems",
-    "url": "/services/automation-services-solutions/industrial-systems",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  }
-]
-
 export const alMlDataEngineeringServices = [
   {
     "id": "ai-ml-analytics",
@@ -815,11 +629,281 @@ export const alMlDataEngineeringServices = [
   }
 ]
 
+export const businessProcessServices = [
+  {
+    "id": "cloud-assessment-migration",
+    "title": "Cloud Assessment Migration",
+    "url": "/services/business-process/cloud-assessment-migration",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "cloud-infrastructure-services",
+    "title": "Cloud Infrastructure Services",
+    "url": "/services/business-process/cloud-infrastructure-services",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "cloud-security-resilience",
+    "title": "Cloud Security & Resilience",
+    "url": "/services/business-process/cloud-security-resilience",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "government-cloud-implementation",
+    "title": "Government Cloud Implementation",
+    "url": "/services/business-process/government-cloud-implementation",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "cloud-ci-cd",
+    "title": "Cloud CI/CD",
+    "url": "/services/business-process/cloud-ci-cd",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  }
+]
+
+export const auditServices = [
+  {
+    "id": "hyperautomation",
+    "title": "Hyperautomation",
+    "url": "/services/audit/hyperautomation",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "rpa",
+    "title": "RPA",
+    "url": "/services/audit/rpa",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "bpm",
+    "title": "BPM",
+    "url": "/services/audit/bpm",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "industrial-systems",
+    "title": "Industrial Systems",
+    "url": "/services/audit/industrial-systems",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  }
+]
+
+export const managedServices = [
+  {
+    "id": "hyperautomation",
+    "title": "Hyperautomation",
+    "url": "/services/managed/hyperautomation",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "rpa",
+    "title": "RPA",
+    "url": "/services/managed/rpa",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "bpm",
+    "title": "BPM",
+    "url": "/services/managed/bpm",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  },
+  {
+    "id": "industrial-systems",
+    "title": "Industrial Systems",
+    "url": "/services/managed/industrial-systems",
+    "image": "1.png",
+    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "categories": [{
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }, {
+      "title": "Custom Applications",
+      "image": "1.png",
+      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    }]
+  }
+]
+
 export const serviceDescriptions = {
   appDevelopment : "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
   qualityEngineering : "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
   digitization : "Digitization has revolutionized the way businesses operate. With the increasing use of technology, it has become crucial for businesses to keep up with the latest trends and techniques. At OryxSpace, we provide a range of digitization services to help businesses transform their processes and stay ahead of the competition.",
   aiMlDataEngineering : "OryxSpace provides innovative solutions to help businesses achieve their digital transformation goals. With services ranging from AI/ML, Analytics, to Data Engineering, our team of experienced professionals uses state-of-the-art tools and techniques to deliver tailored solutions that meet the unique needs of each client",
+  businessProcessServices : "OryxSpace provides innovative solutions to help businesses achieve their digital transformation goals. With services ranging from AI/ML, Analytics, to Data Engineering, our team of experienced professionals uses state-of-the-art tools and techniques to deliver tailored solutions that meet the unique needs of each client",
   audit : "OryxSpace provides a range of Business Process Services to help organizations streamline their operations, improve customer experience, and optimize their finance and accounting processes. With a focus on process optimization, customer experience management, and financial services, OryxSpace helps businesses operate more efficiently and effectively.",
   managed : "As businesses increasingly rely on technology to drive their operations, the need for efficient and effective management of IT infrastructure, cloud, network, applications, and databases becomes crucial. OryxSpace Managed Services offers comprehensive and tailored solutions to manage and optimize these critical areas, allowing businesses to focus on their core competencies.",
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import '../../style/section.css';
 import { Box, Grid, Typography } from "@mui/material";
-import { qualityEngineeringServices } from '../AppConstants';
+import { qualityEngineeringServices, serviceDescriptions} from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
 function QualityEngineeringSection({ param }) {
     const selectedService = qualityEngineeringServices.find((item) => item['id'] === param);
@@ -37,7 +37,7 @@ function QualityEngineeringSection({ param }) {
                                 fontSize: { xs: "1em", sm: "1.5em", lg: "2em" },
                             }}
                         >
-                            {selectedService.desc}
+                            {serviceDescriptions.qualityEngineering}
                         </Typography>
                     </Box>
 

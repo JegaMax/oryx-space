@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../../style/section.css';
-import { auditServices } from '../AppConstants';
+import { serviceOffering } from '../AppConstants';
 function AuditService() {
     return (
         <section id="services" className="services pt-5">
@@ -12,7 +12,7 @@ function AuditService() {
             <div className="row">
 
                 {
-                    auditServices.map((service) => (
+                    serviceOffering.map((service) => (
                     <div className="col-sm-12 col-12 col-md-6 col-lg-3 d-flex align-items-stretch mb-5">
                     <div className="icon-box">
                         <div className="icon"><img src={require('../../assets/img/service/' + service.image)} alt=""/></div>
