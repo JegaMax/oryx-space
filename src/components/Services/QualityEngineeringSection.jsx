@@ -4,6 +4,7 @@ import '../../style/section.css';
 import { Box, Grid, Typography } from "@mui/material";
 import { qualityEngineeringServices, serviceDescriptions} from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
+import ServiceHeader from './ServiceHeader';
 function QualityEngineeringSection({ param }) {
     const selectedService = qualityEngineeringServices.find((item) => item['id'] === param);
 
@@ -11,39 +12,21 @@ function QualityEngineeringSection({ param }) {
         .filter((item) => item['id'] !== param)
         .map(({ title, url }) => ({ title, url }));
 
-    const main = {
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        width: "100%",
-        height: "60vh",
-        padding: "2rem",
-        background: `linear-gradient(
-            rgba(255, 255, 255, 0.849),
-            rgba(255, 201, 201, 0.664)
-          ), url(${require(`../../assets/img/service/${selectedService.image}`)}) center / cover no-repeat`,
-    }
-
     return (
         <>
-            <Grid>
-                <Box sx={main}>
-                    <Box sx={{ p: { xs: 5, sm: 3, lg: 5, width: '60%' } }}>
-                        <Typography
-                            color="secondary.dark"
-                            sx={{
-                                fontWeight: "bold",
-                                textAlign: { xs: "center", sm: "left" },
-                                fontSize: { xs: "1em", sm: "1.5em", lg: "2em" },
-                            }}
-                        >
-                            {serviceDescriptions.qualityEngineering}
-                        </Typography>
-                    </Box>
-
-                </Box>
-            </Grid>
+            <ServiceHeader description={serviceDescriptions.qualityEngineering} image={selectedService.image} />
             <NavigationTabs navigationLinks={otherSections} />
+            <Box
+                sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    gap: "1.5rem",
+                    textAlign: "center",
+                    p: 3
+                }}
+            >
                 <Typography sx={{ fontWeight: "bold" }} variant="h3">
                     {selectedService.title}
                 </Typography>
@@ -52,37 +35,20 @@ function QualityEngineeringSection({ param }) {
                 </Typography>
                 <Grid
                     container
-                    item
-                    xs={12}
-                    md={6}
-                    sx={{
-                        display: "flex",
-                        flexFlow: "row wrap",
-                        width: "100%",
-                        margin: 0,
-                        justifyContent: "center",
-                        flexBasis: {
-                            md: "50%"
-                        },
-                        maxWidth: {
-                            md: "50%"
-                        },
-
-                        flexGrow: {
-                            md: 0
-                        }
-                    }}
+                    direction={{ xs: "column", md: "row" }}
+                    justifyContent="center"
+                    alignItems="center"
+                    spacing={4}
+                    sx={{ maxWidth: "90rem", display: 'flex', flexWrap: 'wrap'}}
                 >
-                {
-                    selectedService.categories.map((category) => (
+                    {selectedService.categories.map((category) => (
                                 <Grid
                                     container
-                                    spacing={4}
+                                    margin={3}
                                     sx={{
                                         boxSizing: "border-box",
                                         display: "flex",
                                         flexFlow: "row wrap",
-                                        marginTop: "-32px",
                                         width: "calc(100% + 16px)",
                                         marginLeft: "-32px",
                                         "&>.MuiGrid-item": {
@@ -118,6 +84,7 @@ function QualityEngineeringSection({ param }) {
                                         <span
                                             className=" lazy-load-image-background blur lazy-load-image-loaded"
                                             style={{ display: "inline-block" }}
+                                            data-aos="fade-right" data-aos-duration="2000"
                                         >
                                             <img
                                                 class="MuiBox-root css-12j420d"
@@ -185,21 +152,10 @@ function QualityEngineeringSection({ param }) {
                                     </Grid>
                                 </Grid>
                     ))}
-            </Grid>
+                </Grid>
+            </Box>
         </>
     );
 }
 
 export default QualityEngineeringSection;
-
-const HeaderInfo = styled.div`
-  @media (max-width: 860px) {
-    text-align: center;
-  }
-`;
-const SubTitle = styled.div`
-margin-top:16px;
-  @media (max-width: 860px) {
-    text-align: center;
-  }
-`;

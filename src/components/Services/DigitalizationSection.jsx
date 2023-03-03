@@ -3,24 +3,13 @@ import '../../style/section.css';
 import { Box, Grid, Typography, Card } from "@mui/material";
 import { digitizationServices, serviceDescriptions } from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
+import ServiceHeader from './ServiceHeader';
 function DigitalizationSection({ param }) {
     const selectedService = digitizationServices.find((item) => item['id'] === param);
 
     const otherSections = digitizationServices
         .filter((item) => item['id'] !== param)
         .map(({ title, url }) => ({ title, url }));
-    const main = {
-        display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        width: "100%",
-        height: "60vh",
-        padding: "2rem",
-        background: `linear-gradient(
-                rgba(255, 255, 255, 0.849),
-                rgba(255, 201, 201, 0.664)
-              ), url(${require(`../../assets/img/service/${selectedService.image}`)}) center / cover no-repeat`,
-    }
 
     const cardStyle = {
         p: 2,
@@ -36,23 +25,7 @@ function DigitalizationSection({ param }) {
 
     return (
         <>
-            <Grid>
-                <Box sx={main}>
-                    <Box sx={{ p: { xs: 5, sm: 3, lg: 5, width: '60%' } }}>
-                        <Typography
-                            color="secondary.dark"
-                            sx={{
-                                fontWeight: "bold",
-                                textAlign: { xs: "center", sm: "left" },
-                                fontSize: { xs: "1em", sm: "1.5em", lg: "2em" },
-                            }}
-                        >
-                            {serviceDescriptions.digitization}
-                        </Typography>
-                    </Box>
-
-                </Box>
-            </Grid>
+            <ServiceHeader description={serviceDescriptions.digitization} image={selectedService.image} />
             <NavigationTabs navigationLinks={otherSections} />
             <Box
                 sx={{
@@ -77,7 +50,7 @@ function DigitalizationSection({ param }) {
                     justifyContent="center"
                     alignItems="center"
                     spacing={4}
-                    sx={{ maxWidth: "75rem", display: 'flex', flexWrap: 'wrap' }} // Add display: 'flex' and flexWrap: 'wrap'
+                    sx={{ maxWidth: "80rem", display: 'flex', flexWrap: 'wrap' }} 
                 >
                     {selectedService.categories.map((category) => (
                         <Grid item xs={6} sx={{ flexGrow: 1, height: '100%' }}>

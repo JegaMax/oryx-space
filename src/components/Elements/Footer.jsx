@@ -21,7 +21,7 @@ function Copyright() {
 function Footer(props) {
 
   return (
-    <Box component="footer" sx={{ bgcolor: '#eee', py: 6 }}>
+    <Box component="footer" sx={{ bgcolor: '#eee', py: 3 }}>
       <Container maxWidth="lg">
         <Typography variant="h6" align="center" gutterBottom>
         Let's make something great together
@@ -32,7 +32,8 @@ function Footer(props) {
           color="text.secondary"
           component="p"
         >
-         Call Us: +974 66963360/70977928
+         Call Us: 
+         <span style={{color:'#0b093b'}}> +974 66963360/70977928</span>
         </Typography>
         <Typography
           variant="subtitle1"
