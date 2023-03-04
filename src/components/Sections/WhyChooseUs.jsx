@@ -15,7 +15,7 @@ Management, Workflow Management, Enhancements and Advisory Services”.
           <div className="lftAdCntnr col-md-6 col-sm-12">
             {whyChooseUs.map((data, index) => (
               <div className="adCard" key={index}>
-                <img src={require('../../assets/img/service/' + data.image)} alt="" data-aos="zoom-in" />
+                <img src={require('../../assets/img/whyus/' + data.image)} alt="" data-aos="zoom-in" />
                 <h3>{data.title}</h3>
                 <p>
                   {data.paragraph}

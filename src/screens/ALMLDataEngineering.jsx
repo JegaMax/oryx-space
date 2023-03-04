@@ -5,16 +5,19 @@ import ALMLDataEngineeringSection from "../components/Services/ALMLDataEngineeri
 
 function ALMLDataEngineering() {
   const { param } = useParams();
-  if(param){
+  if (param) {
     return (
       <>
-        <ALMLDataEngineeringSection param={param}/>
+        <head>
+          <title>AL, ML, and Data Engineering</title>
+        </head>
+        <ALMLDataEngineeringSection param={param} />
         <Footer />
       </>
 
     );
   }
-   return null;
+  return null;
 }
 
 export default ALMLDataEngineering;

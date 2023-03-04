@@ -15,7 +15,7 @@ function SoftwareDevelopmentSection({ param }) {
         p: 2,
         my: 2,
         backgroundColor: '#eee',
-        minHeight: '32rem'
+        minHeight: '40rem'
     };
     return (
         <>
@@ -50,7 +50,7 @@ function SoftwareDevelopmentSection({ param }) {
                         <Grid item xs={4} sx={{ flexGrow: 1, height: '100%' }}>
                             <Card sx={cardStyle}>
                                 <Stack justifyContent="center" alignItems="center" spacing={2} data-aos="fade-right" data-aos-duration="2000">
-                                    <Avatar sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
+                                    <Avatar sx={{ width: 240, height: 240 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
                                     <Typography variant="h5">{category.title}</Typography>
                                     <Typography sx={{ lineHeight: "2", color: "gray", textAlign: "left", }}>
                                         {category.desc}

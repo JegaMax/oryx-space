@@ -21,65 +21,43 @@ export const partners = [
   }
 ];
 
-export const softwareDevelopment = [
-  {
-    "image": "logo01.svg",
-    "title": "Custom Application Development"
-  },
-  {
-    "image": "logo02.svg",
-    "title": "Modernization & Migration"
-  },
-  {
-    "image": "logo03.svg",
-    "title": "Product development"
-  },
-  {
-    "image": "logo04.svg",
-    "title": "Support & Maintenance"
-  },
-  {
-    "image": "logo05.svg",
-    "title": "Mobility"
-  },
-  {
-    "image": "logo05.svg",
-    "title": "Low-code platform development"
-  }
-]
+export const serviceOffering = [
 
-export const digitalMediaAndServices = [
   {
-    "image": "logo01.svg",
-    "title": "Digital Marketing"
-  },
-  {
-    "image": "logo02.svg",
-    "title": "Social media management"
-  },
-  {
-    "image": "logo03.svg",
-    "title": "SEO"
-  },
-  {
-    "image": "logo04.svg",
-    "title": "Motion Graphics "
-  },
-  {
-    "image": "logo05.svg",
-    "title": "UI/UX designs"
-  },
-  {
-    "image": "logo05.svg",
-    "title": "3D designs"
-  },
-  {
-    "image": "logo05.svg",
-    "title": "Ad Campaigns"
-  },
-  {
-    "image": "logo05.svg",
-    "title": "Content Writing"
+    "image": "service-setting-solid.svg",
+    "title": "App Development and Modernization",
+    "url": "/services/app-development-modernization/mobile-app-development",
+    "desc": "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
+  },{
+    "image": "service-setting-solid.svg",
+    "title": "Quality Engineering",
+    "url": "/services/quality-engineering/qe-consulting-advisory",
+    "desc": "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
+  },{
+    "image": "service-setting-solid.svg",
+    "title": "Digitization",
+    "url": "/services/digitization/business-process-assessment",
+    "desc": "Digitization has revolutionized the way businesses operate. With the increasing use of technology, it has become crucial for businesses to keep up with the latest trends and techniques. At OryxSpace, we provide a range of digitization services to help businesses transform their processes and stay ahead of the competition.",
+  },{
+    "image": "service-setting-solid.svg",
+    "title": "AI,ML, and Data Engineering",
+    "url": "/services/alml-data-engineering-services/ai-ml-analytics",
+    "desc": "OryxSpace provides innovative solutions to help businesses achieve their digital transformation goals. With services ranging from AI/ML, Analytics, to Data Engineering, our team of experienced professionals uses state-of-the-art tools and techniques to deliver tailored solutions that meet the unique needs of each client",
+  },{
+    "image": "service-setting-solid.svg",
+    "title": "Business Process Services",
+    "url": "/services/business-process/business-process-optimization",
+    "desc": "OryxSpace provides a range of Business Process Services to help organizations streamline their operations, improve customer experience, and optimize their finance and accounting processes. With a focus on process optimization, customer experience management, and financial services, OryxSpace helps businesses operate more efficiently and effectively.",
+  },{
+    "image": "service-setting-solid.svg",
+    "title": "Audit Services",
+    "url": "/services/audit/financial-audits",
+    "desc": "OryxSpace provides comprehensive audit services to organizations across various industries. Our team of experienced auditors provides financial, operational, IT, and compliance audits that help clients identify areas of improvement and mitigate risks. We tailor our approach to each client's unique needs, ensuring high-quality and efficient services.",
+  },{
+    "image": "service-setting-solid.svg",
+    "title": "Managed Services",
+    "url": "/services/managed/it-managed-services",
+    "desc": "As businesses increasingly rely on technology to drive their operations, the need for efficient and effective management of IT infrastructure, cloud, network, applications, and databases becomes crucial. OryxSpace Managed Services offers comprehensive and tailored solutions to manage and optimize these critical areas, allowing businesses to focus on their core competencies.",
   }
 ]
 
@@ -107,125 +85,6 @@ export const whyChooseUs = [
   {
     "image": "logo05.svg",
     "title": "Our certified professionals work as part of your business continuity plan"
-  }
-]
-
-export const atOurGlance = [
-  {
-    "image": "logo01.svg",
-    "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
-    "desc": "",
-    "service_items": [
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
-        "animation": "fade-up"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      }
-    ]
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
-    "desc": "",
-    "service_items": [
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      }
-    ]
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
-    "desc": "",
-    "service_items": [
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      }
-    ]
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
-    "desc": "",
-    "service_items": [
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      }
-    ]
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity",
-    "desc": "",
-    "service_items": [
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      },
-      {
-        "image": "logo01.svg",
-        "title": "Dedicated teams to support 24/7 support enabling faster issue resolution to ensure business continuity"
-      }
-    ]
   }
 ]
 
@@ -265,7 +124,7 @@ export const aboutUsSections = [
     "image": "1.png",
     "subTitle": "",
     "desc": ["Our success stories speak for themselves. We have helped organizations in a wide range of industries achieve their goals and overcome their most pressing challenges. From streamlining internal operations to improving customer experiences, our solutions and services have had a transformative impact on our clients.",
-    "Our global reach and diverse client base are a testament to the effectiveness and versatility of our solutions and services. We are proud to have worked with organizations of all sizes and from all corners of the globe, and we are committed to helping even more businesses achieve their potential."]
+      "Our global reach and diverse client base are a testament to the effectiveness and versatility of our solutions and services. We are proud to have worked with organizations of all sizes and from all corners of the globe, and we are committed to helping even more businesses achieve their potential."]
   },
   {
     "id": "leadership-team",
@@ -306,35 +165,13 @@ export const aboutUsSections = [
       "Our commitment to sustainability and corporate responsibility is reflected in everything we do, from our business practices to our community outreach initiatives. We are proud to be a company that is making a positive impact on the world."]
   }
 ]
-export const serviceOffering = [
-  {
-    "image": "logo01.svg",
-    "title": "Assurance",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Testing",
-    "desc": "Evaluating how your products and services meet and exceed quality, safety, sustainability and performance standards."
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Inspection",
-    "desc": "Validating the specifications, value and safety of your raw materials, products and assets.",
-  },
-  {
-    "image": "logo01.svg",
-    "title": "Certification",
-    "desc": "Formally confirming that your products and services meet all trusted external and internal standards.",
-  }
-]
 
 export const softwareDevelopmentServices = [
   {
     "id": "mobile-app-development",
     "title": "Mobile App Development",
     "url": "/services/app-development-modernization/mobile-app-development",
-    "image": "1.png",
+    "image": "Cloud_Native_App_Development_2.jpg",
     "desc": "Our mobile app development services include Native App Development, Hybrid App Development, and Cross-Platform App Development. We use the latest mobile app development technologies to deliver high-quality, engaging, and user-friendly mobile apps that meet the unique requirements of our clients.",
     "categories": [{
       "title": "Native App Development",
@@ -354,11 +191,11 @@ export const softwareDevelopmentServices = [
     "id": "web-app-development",
     "title": "Web App Development",
     "url": "/services/app-development-modernization/web-app-development",
-    "image": "1.png",
+    "image": "Web_App_Development_1.jpg",
     "desc": "Our team of expert developers creates responsive and high-performance web applications that are tailored to meet your specific business needs. We provide frontend and backend development services using cutting-edge technologies, ensuring scalability, security, and seamless integration with your existing systems.",
     "categories": [{
       "title": "Front-end development",
-      "image": "1.png",
+      "image": "Web_App_Development_1.jpg",
       "desc": "We offer specialized front-end development services to help clients create visually stunning, responsive, and user-friendly web applications. Our team of experts uses the latest front-end technologies and frameworks, including React, Angular, and Vue.js, to deliver high-quality web applications that meet our client's unique needs.",
     }, {
       "title": "Back End Development",
@@ -370,7 +207,7 @@ export const softwareDevelopmentServices = [
     "id": "legacy-app-modernization",
     "title": "Legacy App Modernization",
     "url": "/services/app-development-modernization/legacy-app-modernization",
-    "image": "1.png",
+    "image": "Legacy_App_Development.png",
     "desc": "We provide Legacy App Modernization services to help businesses transform their outdated and inefficient legacy systems into modern, scalable, and secure software solutions. Our team uses advanced tools and technologies to re-host, re-factor, or re-architect legacy applications, ensuring optimal performance, improved functionality, and reduced maintenance costs.",
     "categories": [{
       "title": "Re-Hosting",
@@ -398,11 +235,11 @@ export const softwareDevelopmentServices = [
       "desc": "OryxSpace's Cloud-Native App Development service provides Microservices Architecture, which allows for building complex applications that can scale, evolve and improve independently. Our team of experts designs develops and deploys microservices-based applications that enable efficient resource utilization, faster time-to-market, and higher scalability with minimal maintenance.",
     }, {
       "title": "Containerization",
-      "image": "1.png",
+      "image": "Cloud_Native_App_Development_2.jpg",
       "desc": "We provide containerization services to modernize legacy apps, enable the faster deployment, and improve scalability. Our experts can help you implement Docker and Kubernetes to containerize your applications, automate deployment, manage resources efficiently, and enhance application security.",
     }, {
       "title": "DevOps Integration",
-      "image": "1.png",
+      "image": "Cloud_Native_App_Development_3.jpg",
       "desc": "OryxSpace's Cloud-Native App Development Service includes DevOps Integration to enable seamless collaboration between developers and operations teams. Our DevOps practices automate the build, testing, and deployment processes, and ensure the continuous integration and delivery of new features. This accelerates the time-to-market while improving the quality of the software.",
     }]
   }
@@ -589,321 +426,350 @@ export const digitizationServices = [
 export const alMlDataEngineeringServices = [
   {
     "id": "ai-ml-analytics",
-    "title": "AI/ML and Analytics",
+    "title": "AI/ML Services",
     "url": "/services/alml-data-engineering-services/ai-ml-analytics",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "We are dedicated to helping our clients leverage data-driven insights and technologies to make informed decisions and stay ahead of the competition in today's rapidly evolving digital landscape.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Machine Learning Algorithms",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace provides cutting-edge Machine Learning (ML) algorithms to help businesses automate their decision-making processes. Our ML algorithms are designed to recognize patterns in data, make predictions based on those patterns, and continuously learn and improve over time. With our ML algorithms, businesses can optimize their operations, reduce costs, and improve customer satisfaction. We work closely with our clients to understand their unique needs and provide tailor-made ML solutions that drive growth and success.",
     }, {
-      "title": "Custom Applications",
+      "title": "Natural Language Processing (NLP)",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace offers NLP services to help businesses extract meaningful insights from unstructured data such as text, speech, and images. Our team of experts uses state-of-the-art algorithms and techniques to perform sentiment analysis, language translation, and chatbot development, among other NLP applications. With our NLP solutions, businesses can automate processes, improve customer experience, and gain a competitive edge in their respective industries.",
     }, {
-      "title": "Custom Applications",
+      "title": "Computer Vision",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Computer Vision is the service offered by OryxSpace that enables machines to interpret and understand digital images and videos. Our experts can provide solutions for various domains, including healthcare, retail, and manufacturing. Our services in this area include object detection, image classification, and facial recognition. By utilizing Computer Vision, we help businesses automate tasks and improve decision-making by extracting valuable insights from visual data.",
+    },
+    {
+      "title": "Predictive Modeling",
+      "image": "1.png",
+      "desc": "Predictive modeling is a game-changer tool for businesses seeking to gain insights from their data. At OryxSpace, we provide customized predictive modeling solutions to meet the unique needs of our clients. By using advanced statistical techniques and machine learning algorithms, we help businesses make better predictions and improve their decision-making processes. Whether you're looking to predict customer behavior, optimize your marketing campaigns, or improve your supply chain management, our team of experts can help you get the most out of your data.",
+    }]
+  },
+  {
+    "id": "analytics-services",
+    "title": "Analytics Services",
+    "url": "/services/alml-data-engineering-services/analytics-services",
+    "image": "1.png",
+    "desc": "OryxSpace recognizes the crucial role of data analysis in the success of businesses. Our analytics services go beyond just gathering data, as we provide end-to-end solutions that help organizations gain valuable insights and use them to make informed decisions. We leverage advanced tools and techniques to process and analyze data, creating visually engaging reports and dashboards that enable businesses to track their progress and improve their performance.",
+    "categories": [{
+      "title": "Data Analytics and Insights",
+      "image": "1.png",
+      "desc": "Our data analytics and insights service provides a comprehensive analysis of business data to identify patterns, trends, and insights that can inform decision-making. Our team uses advanced analytics tools and techniques to help organizations uncover hidden opportunities, optimize their operations, and drive business growth. We work closely with our clients to develop customized solutions that meet their unique needs and deliver measurable results.",
+    }, {
+      "title": "Business Intelligence",
+      "image": "1.png",
+      "desc": "OryxSpace's Business Intelligence services help organizations monitor and analyze key performance indicators (KPIs) to identify trends, patterns, and opportunities. Our customized BI solutions help businesses make data-driven decisions to achieve their goals and objectives.",
+    }, {
+      "title": "Big Data Analytics",
+      "image": "1.png",
+      "desc": "OryxSpace offers Big Data Analytics services to help businesses extract insights and value from their vast amounts of data. Our team of experts utilizes cutting-edge tools and technologies to manage, store, process, and analyze large and complex datasets. We provide actionable insights that enable our clients to make data-driven decisions and gain a competitive advantage in the market.",
     }]
   },
   {
     "id": "data-engineering",
-    "title": "Data Engineering",
+    "title": "Data Engineering Services",
     "url": "/services/alml-data-engineering-services/data-engineering",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace offers a range of Data Engineering Services to help businesses manage their data effectively. Our services include Data Warehousing, Data Integration, ETL Development, and Cloud Data Engineering, enabling businesses to optimize their data infrastructure and streamline their operations.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Data Warehousing",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace provides comprehensive data warehousing services to help organizations store and manage their data efficiently. We design and implement custom data warehousing solutions that are scalable, secure, and reliable. Our team of experts ensures seamless integration with existing systems and provides ongoing maintenance and support to optimize performance.",
     }, {
-      "title": "Custom Applications",
+      "title": "Data Integration",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace offers Data Integration services to help businesses manage and consolidate their data from various sources. Our experts provide end-to-end solutions to ensure seamless integration, data quality, and data governance. We utilize the latest technologies and tools to transform and migrate data across systems and platforms. Our services ensure optimized data management for better decision-making and improved business performance.",
     }, {
-      "title": "Custom Applications",
+      "title": "ETL Development",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "ETL (Extract, Transform, Load) development is a crucial part of data engineering. Our team at OryxSpace provides ETL development services to help organizations extract and transform data from various sources and load it into a centralized database. We use cutting-edge tools and technologies to ensure that the data is accurate, reliable, and up-to-date.",
+    }, {
+      "title": "Cloud Data Engineering",
+      "image": "1.png",
+      "desc": "At OryxSpace, we provide cloud data engineering services to help organizations migrate their data to cloud-based systems. Our team of experts can design and implement cloud data architectures that support data processing, storage, and retrieval in a secure and scalable way. We also offer ongoing support and maintenance to ensure that your cloud-based data infrastructure runs smoothly and efficiently.",
     }]
   }
 ]
 
 export const businessProcessServices = [
   {
-    "id": "cloud-assessment-migration",
-    "title": "Cloud Assessment Migration",
-    "url": "/services/business-process/cloud-assessment-migration",
+    "id": "business-process-optimization",
+    "title": "Business Process Optimization",
+    "url": "/services/business-process/business-process-optimization",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace's Business Process Optimization services offer process analysis and design, process reengineering and automation, and performance monitoring and improvement to help organizations streamline their operations and increase efficiency. By identifying bottlenecks and inefficiencies in current processes, we help businesses optimize their workflows and achieve their goals more effectively.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Process Analysis and Design",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Process Analysis and Design is the first step in optimizing business processes. Our team at OryxSpace analyzes existing business processes to identify areas for improvement, designs new processes to optimize efficiency, and recommends technology solutions to automate and streamline processes for optimal performance and cost savings.",
     }, {
-      "title": "Custom Applications",
+      "title": "Process Reengineering and Automation",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Our Business Process Optimization services offer Process Reengineering and Automation solutions to help you streamline your workflows and increase productivity. We'll work with you to analyze and redesign your existing processes, identifying areas for improvement and implementing automation technologies to eliminate manual work and reduce errors.",
     }, {
-      "title": "Custom Applications",
+      "title": "Performance Monitoring and Improvement",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Performance Monitoring and Improvement services aim to identify areas of inefficiency, optimize business processes, and increase productivity. Our experts use advanced tools and techniques to analyze performance metrics, identify bottlenecks, and implement strategies to improve performance. We work with clients to drive measurable results and improve business outcomes.",
     }]
   },
   {
-    "id": "cloud-infrastructure-services",
-    "title": "Cloud Infrastructure Services",
-    "url": "/services/business-process/cloud-infrastructure-services",
+    "id": "customer-experience-management",
+    "title": "Customer Experience Management",
+    "url": "/services/business-process/customer-experience-management",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace's Customer Experience Management services provide end-to-end solutions to improve customer satisfaction and loyalty. With customer journey mapping, contact center solutions, and omnichannel customer engagement, businesses can effectively manage interactions with customers across multiple touchpoints and ensure consistent and personalized experiences, ultimately driving revenue growth and brand loyalty.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Customer Journey Mapping",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "At OryxSpace, we offer customer journey mapping services to help businesses better understand their customer interactions across all touchpoints. By analyzing these interactions, OryxSpace can help businesses identify pain points and opportunities for improvement, ultimately leading to a better overall customer experience and increased customer loyalty.",
     }, {
-      "title": "Custom Applications",
+      "title": "Contact Center Solutions",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace offers Contact Center Solutions to manage customer interactions, with multichannel support, including voice, email, chat, and social media. Our solutions enable effective routing, tracking, and escalation of customer inquiries, providing real-time analytics for continuous improvement. We ensure a seamless customer experience, resulting in increased customer satisfaction and loyalty.",
     }, {
-      "title": "Custom Applications",
+      "title": "Omnichannel Customer Engagement",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace provides a robust Omnichannel Customer Engagement Service to help businesses engage with their customers seamlessly on all communication channels. Our services include chatbots, email, SMS, social media, and voice interactions, all designed to enhance the customer experience and drive business success.",
     }]
   },
   {
-    "id": "cloud-security-resilience",
-    "title": "Cloud Security & Resilience",
-    "url": "/services/business-process/cloud-security-resilience",
+    "id": "finance-and-accounting-services",
+    "title": "Finance and Accounting Services",
+    "url": "/services/business-process/finance-and-accounting-services",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "Our Finance and Accounting Services provide comprehensive solutions for businesses of all sizes, from bookkeeping and payroll to financial reporting and tax preparation. Our team of experts is committed to providing accurate and timely financial information, allowing you to make informed decisions and focus on growing your business.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Accounts Payable and Receivable Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Our Accounts Payable and Receivable Management Services offer a comprehensive solution for businesses to effectively manage their cash flow. We streamline payment processes, track and reconcile invoices, and manage collections to ensure timely payments and optimal cash flow management. Our expert team ensures the accuracy and timely processing of all transactions.",
     }, {
-      "title": "Custom Applications",
+      "title": "General Ledger Accounting",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Our General Ledger Accounting Services provide businesses with a complete solution for managing their financial transactions accurately and efficiently. We ensure the timely recording and reconciliation of all financial transactions, prepare financial statements and reports, and maintain compliance with accounting standards and regulations. Our expert team provides comprehensive support to help businesses make informed decisions.",
     }, {
-      "title": "Custom Applications",
+      "title": "Financial Reporting and Analysis",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "government-cloud-implementation",
-    "title": "Government Cloud Implementation",
-    "url": "/services/business-process/government-cloud-implementation",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }]
-  },
-  {
-    "id": "cloud-ci-cd",
-    "title": "Cloud CI/CD",
-    "url": "/services/business-process/cloud-ci-cd",
-    "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    "categories": [{
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
-    }, {
-      "title": "Custom Applications",
-      "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Our Financial Reporting and Analysis Services involve analyzing and interpreting financial data to provide businesses with a deeper understanding of their financial performance. We use financial ratios, charts, and graphs to identify trends and insights, including revenue and expense analysis, cash flow forecasting, and financial modeling. Our expert team provides tailored recommendations to help businesses optimize their financial performance.",
     }]
   }
 ]
 
 export const auditServices = [
   {
-    "id": "hyperautomation",
-    "title": "Hyperautomation",
-    "url": "/services/audit/hyperautomation",
+    "id": "financial-audits",
+    "title": "Financial Audits",
+    "url": "/services/audit/financial-audits",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "Financial audits by OryxSpace include assessing financial statements, ensuring compliance with relevant laws and regulations, and detecting/preventing fraud. Our team has expertise in various industries and can provide customized solutions to meet clients' needs. OryxSpace’s audit services enable clients to make informed decisions, reduce risks and improve operational efficiency.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Financial Statements Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Financial statements audits are conducted to ensure that the financial statements of a company are accurate, complete, and comply with the relevant accounting standards. OryxSpace's financial audit services provide an independent and objective assessment of the financial information, assuring stakeholders of the reliability and credibility of financial statements.",
     }, {
-      "title": "Custom Applications",
+      "title": "Compliance Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Compliance audits are a crucial aspect of ensuring that companies adhere to legal and regulatory requirements. OryxSpace's compliance audit services assist clients in identifying compliance gaps, evaluating compliance programs, and providing recommendations for improving compliance. Our compliance audit services help organizations achieve and maintain regulatory compliance while minimizing risk.",
     }, {
-      "title": "Custom Applications",
+      "title": "Fraud Detection and Prevention",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Financial fraud can have a devastating impact on an organization, both financially and in terms of reputation. OryxSpace offers specialized expertise in fraud detection and prevention through our financial audits. Our experienced auditors are trained to detect and prevent fraudulent activity, helping to safeguard your business from potential risks.",
     }]
   },
   {
-    "id": "rpa",
-    "title": "RPA",
-    "url": "/services/audit/rpa",
+    "id": "operational-audits",
+    "title": "Operational Audits",
+    "url": "/services/audit/operational-audits",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "Operational Audits are essential for assessing an organization's overall performance. Internal controls assessments can help identify areas of potential risk, while risk management strategies can help mitigate these risks. Quality assurance audits can help ensure that processes are operating effectively and efficiently, helping to improve overall business operations.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Internal Controls Assessments",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Internal controls assessments involve reviewing the policies, procedures, and processes within an organization to identify potential weaknesses that could lead to operational inefficiencies or financial loss. OryxSpace's operational audits provide an objective assessment of internal controls and help organizations identify opportunities to improve efficiency and mitigate risk.",
     }, {
-      "title": "Custom Applications",
+      "title": "Risk Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Risk management is a critical component of operational audits, and our team at OryxSpace provides comprehensive assessments of an organization's risk management framework. We evaluate risk identification, assessment, and mitigation processes and develop recommendations to strengthen controls and reduce risk exposure.",
     }, {
-      "title": "Custom Applications",
+      "title": "Quality Assurance",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "In operational audits, we conduct quality assurance reviews of processes and procedures. This includes analyzing existing control frameworks, identifying gaps, and recommending improvements to ensure compliance with industry standards and regulations. Our experts collaborate with clients to establish a comprehensive quality assurance program that meets their unique business needs.",
     }]
   },
   {
-    "id": "bpm",
-    "title": "BPM",
-    "url": "/services/audit/bpm",
+    "id": "it-audits",
+    "title": "IT Audits",
+    "url": "/services/audit/it-audits",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace provides comprehensive IT audit services to ensure the integrity, confidentiality, and availability of information systems and data. Our IT audit services include IT risk assessments, cybersecurity audits, and IT infrastructure audits. We assist clients in identifying and addressing technology-related risks and vulnerabilities, ensuring compliance with regulatory requirements and industry standards, and enhancing the efficiency and effectiveness of IT operations.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "IT Risk Assessments",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "IT Risk Assessments are essential for organizations to identify, assess, and manage potential risks to their IT systems and infrastructure. OryxSpace offers IT Audits to evaluate IT risk management practices, assess IT controls, and provide recommendations to improve the effectiveness and efficiency of IT operations, ensuring the security and confidentiality of data.",
     }, {
-      "title": "Custom Applications",
+      "title": "Cybersecurity Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace offers comprehensive Cybersecurity Audits that help businesses assess their security posture, identify vulnerabilities, and implement necessary controls. Our team of experienced professionals performs technical assessments, penetration testing, and vulnerability scanning to evaluate the effectiveness of existing security measures. We provide detailed reports and recommendations to improve cybersecurity defenses.",
     }, {
-      "title": "Custom Applications",
+      "title": "IT Infrastructure Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "IT Infrastructure Audits performed by OryxSpace assess the effectiveness, efficiency, and security of the organization's IT infrastructure. Our audit process evaluates the physical and virtual elements of the infrastructure, including hardware, software, networking components, and data storage, to identify potential risks and vulnerabilities, and provide recommendations for improvement.",
     }]
   },
   {
-    "id": "industrial-systems",
-    "title": "Industrial Systems",
-    "url": "/services/audit/industrial-systems",
+    "id": "compliance-audits",
+    "title": "Compliance Audits",
+    "url": "/services/audit/compliance-audits",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "Compliance audits by OryxSpace provide comprehensive assessments of regulatory compliance requirements. Our team of experts works with organizations to identify areas of potential non-compliance, evaluate the effectiveness of existing controls, and develop remediation plans to address any gaps. We cover a range of compliance areas, including regulatory, environmental, health and safety, and data protection.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Regulatory Compliance Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace offers regulatory compliance audits to ensure that your organization meets all legal requirements and industry regulations. Our experts assess your operations, policies, and procedures to identify any potential areas of non-compliance and provide recommendations to help you address any issues and stay compliant with applicable regulations.",
     }, {
-      "title": "Custom Applications",
+      "title": "Environmental, Health, and Safety Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace's Environmental, Health, and Safety (EHS) Audits evaluate compliance with legal and regulatory requirements, as well as identify opportunities to improve EHS performance. Our team of experienced auditors conducts assessments to determine the effectiveness of EHS management systems and identify areas for improvement to ensure a safe and sustainable workplace for employees and stakeholders.",
     }, {
-      "title": "Custom Applications",
+      "title": "Privacy and Data Protection Audits",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace's Environmental, Health, and Safety (EHS) Audits evaluate compliance with legal and regulatory requirements, as well as identify opportunities to improve EHS performance. Our team of experienced auditors conducts assessments to determine the effectiveness of EHS management systems and identify areas for improvement to ensure a safe and sustainable workplace for employees and stakeholders.",
     }]
   }
 ]
 
 export const managedServices = [
   {
-    "id": "hyperautomation",
-    "title": "Hyperautomation",
-    "url": "/services/managed/hyperautomation",
+    "id": "it-managed-services",
+    "title": "IT Managed Services",
+    "url": "/services/managed/it-managed-services",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace provides comprehensive IT-managed services, including IT infrastructure management, end-user support, remote monitoring and management, and IT security management. Our technical experts use advanced tools and techniques to ensure optimal performance and availability of your IT systems while reducing downtime and improving productivity.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "IT Infrastructure Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "We offer IT infrastructure management services that ensure a reliable and optimized IT environment. Our experts handle hardware and software maintenance, installation and upgrades, performance tuning, and security patching. We monitor and manage network devices, servers, storage, and backup systems to ensure seamless IT operations and maximum uptime.",
     }, {
-      "title": "Custom Applications",
+      "title": "End-User Support and Help Desk Services",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "At OryxSpace, we provide end-to-end IT infrastructure management, including help desk and end-user support services to ensure seamless technology adoption. Our managed services are designed to keep systems running optimally with proactive monitoring and maintenance, ensuring minimal downtime and business continuity.",
     }, {
-      "title": "Custom Applications",
+      "title": "Remote Monitoring and Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Remote Monitoring and Management (RMM) services enable proactive monitoring and management of IT systems. Our advanced RMM tools allow us to detect and resolve issues before they can impact your business. With 24/7 monitoring and support, we ensure the optimal performance and availability of your IT infrastructure.",
+    }, {
+      "title": "IT Security Management",
+      "image": "1.png",
+      "desc": "OryxSpace specializes in IT Security Management services, guaranteeing that your systems conform to industry standards and are secure. Our security assessments, intrusion detection, vulnerability testing, and security information and event management (SIEM) services are designed to minimize risk and avoid unauthorized access or data breaches.",
     }]
   },
   {
-    "id": "rpa",
-    "title": "RPA",
-    "url": "/services/managed/rpa",
+    "id": "cloud-managed-services",
+    "title": "Cloud-Managed Services",
+    "url": "/services/managed/cloud-managed-services",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "Our Cloud Managed Services provide comprehensive cloud infrastructure management, including migration and deployment, security management, and optimization for cost efficiency. Our team of experts ensures your cloud environment is secure, available, and performing optimally, allowing you to focus on your core business activities.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Cloud Infrastructure Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace offers Cloud Infrastructure Management services, providing end-to-end management and optimization of your cloud infrastructure. Our team of experts can assist with cloud architecture design, deployment, migration, and ongoing management. We help you optimize your cloud resources, reduce costs, and ensure the high availability and performance of your cloud-based applications and services.",
     }, {
-      "title": "Custom Applications",
+      "title": "Cloud Migration and Deployment",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Cloud Migration and Deployment services help organizations move their infrastructure, applications, and data to the cloud with minimal disruption. Our team ensures a seamless transition by developing migration strategies, implementing cloud solutions, and managing deployments to optimize performance and reduce costs.",
     }, {
-      "title": "Custom Applications",
+      "title": "Cloud Security Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "At OryxSpace, we provide Cloud Security Management services to ensure that your cloud-based systems are protected from threats and in compliance with relevant regulations. Our services include risk assessments, identity and access management, data protection, and ongoing monitoring to help you maintain the security of your cloud environment.",
+    }, {
+      "title": "Cloud Optimization and Cost Management",
+      "image": "1.png",
+      "desc": "We offer Cloud Optimization and Cost Management services to help you reduce your cloud-related expenses while optimizing your cloud infrastructure. Our services include workload optimization, cost analysis, and resource management to ensure you have the right amount of resources at the right time, without overspending.",
     }]
   },
   {
-    "id": "bpm",
-    "title": "BPM",
-    "url": "/services/managed/bpm",
+    "id": "network-managed-services",
+    "title": "Network Managed Services",
+    "url": "/services/managed/network-managed-services",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace offers Network Managed Services to provide end-to-end management of your network infrastructure. Our services include network design and implementation, monitoring and management, security management, and optimization to improve network performance and reduce downtime. We also offer WAN optimization services to improve application performance and reduce network costs.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Network Design and Implementation",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Network Design and Implementation services are for businesses requiring complex network infrastructures. Our certified network engineers use advanced technology to design and implement secure and scalable networks. We analyze your requirements, assess your existing infrastructure, and provide customized solutions that optimize your network performance and minimize downtime.",
     }, {
-      "title": "Custom Applications",
+      "title": "Network Monitoring and Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace presents Network Monitoring and Management services to help you maintain the health and performance of your network infrastructure. Our services include proactive monitoring, network analysis, incident management, and troubleshooting to ensure your network is operating optimally and any issues are quickly resolved to minimize downtime and disruptions.",
     }, {
-      "title": "Custom Applications",
+      "title": "Network Security Management",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "Network Security Management by OryxSpace provides comprehensive security solutions to ensure the protection of your network against potential threats. Our services include firewall management, intrusion prevention, endpoint protection, data loss prevention, and security incident response. We help you identify vulnerabilities, implement security protocols, and monitor network activity to maintain optimal security posture.",
+    }, {
+      "title": "WAN Optimization and Performance Management",
+      "image": "1.png",
+      "desc": "WAN optimization and performance management are critical for ensuring efficient network traffic and connectivity. At OryxSpace, we provide WAN optimization and performance management services to help improve network speed, reduce latency, and enhance the overall user experience. Our team utilizes advanced tools and techniques to optimize your WAN and improve its performance.",
     }]
   },
   {
-    "id": "industrial-systems",
-    "title": "Industrial Systems",
-    "url": "/services/managed/industrial-systems",
+    "id": "application-managed-services",
+    "title": "Application Managed Services",
+    "url": "/services/managed/application-managed-services",
     "image": "1.png",
-    "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+    "desc": "OryxSpace's Application Managed Services help you manage your applications throughout their entire lifecycle. We offer services such as application support, development, integration, deployment, and performance management. Our experienced team of professionals ensures that your applications are optimized, secure, and meet your business needs, so you can focus on driving growth.",
     "categories": [{
-      "title": "Custom Applications",
+      "title": "Application Support and Maintenance",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "OryxSpace provides Application Support and Maintenance services to ensure that your critical business applications are functioning optimally. Our team of experts offers proactive monitoring, issue resolution, bug fixing, patching, and performance optimization to keep your applications running smoothly and reduce downtime. We also provide version control and release management to keep your applications up-to-date.",
     }, {
-      "title": "Custom Applications",
+      "title": "Application Development and Enhancement",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "We provide Application Development and Enhancement services to help you build and optimize your software applications. Our experienced team can help you with software design, coding, testing, debugging, and maintenance, as well as provide ongoing support and enhancements to ensure your applications continue to meet your business needs.",
     }, {
-      "title": "Custom Applications",
+      "title": "Application Integration and Deployment",
       "image": "1.png",
-      "desc": "Enabling you to identify and mitigate the intrinsic risk in your operations, supply chains and quality management systems.",
+      "desc": "As part of our Application Managed Services, OryxSpace provides Application Integration and Deployment services, which enable organizations to optimize their business processes and enhance their overall performance. We offer a range of integration solutions, including API integration, data integration, and application integration, to ensure that your applications work seamlessly together and meet your specific business needs.",
+    }, {
+      "title": "Application Performance Management",
+      "image": "1.png",
+      "desc": "Our Application Performance Management services at OryxSpace provide comprehensive monitoring, analysis, and optimization of your application performance to ensure seamless operations. OryxSpace utilizes advanced tools and techniques to identify and resolve bottlenecks, improve response times, and enhance overall application performance for optimal user experience.",
+    }]
+  },
+  {
+    "id": "database-managed-ervices",
+    "title": "Database Managed Services",
+    "url": "/services/managed/database-managed-ervices",
+    "image": "1.png",
+    "desc": "OryxSpace offers comprehensive Database Managed Services that include design and implementation, administration and management, optimization and performance management, and security management. Our experts have experience with various database platforms and can provide solutions that meet your unique business requirements while ensuring data availability, scalability, and security.",
+    "categories": [{
+      "title": "Database Design and Implementation",
+      "image": "1.png",
+      "desc": "Our Database Design and Implementation services provide customized database solutions tailored to your specific business needs. Our experts use the latest tools and techniques to design and implement robust database architectures, ensuring efficient data storage and retrieval, high availability, scalability, and security to meet your business requirements.",
+    }, {
+      "title": "Database Administration and Management",
+      "image": "1.png",
+      "desc": "OryxSpace's Database Administration and Management services ensure that your databases operate efficiently, and securely, and meet business requirements. Our expert team manages database backups, performance optimization, and security, and provides proactive support to ensure uptime and data integrity. We also offer database migration and upgrade services to modernize your infrastructure.",
+    }, {
+      "title": "Database Optimization and Performance Management",
+      "image": "1.png",
+      "desc": "At OryxSpace, we provide expert database tuning and optimization services, including index analysis, query optimization, and performance monitoring. We work to ensure that your database systems operate efficiently and effectively, minimizing downtime and enhancing productivity.",
+    }, {
+      "title": "Database Security Management",
+      "image": "1.png",
+      "desc": "Our Database Security Management services ensure that your data is protected against unauthorized access, modification, or loss. Our team provides security assessments, vulnerability testing, and database encryption services to help safeguard your sensitive information. We also offer ongoing monitoring to detect and mitigate potential security threats and breaches",
     }]
   }
 ]
 
 export const serviceDescriptions = {
-  appDevelopment : "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
-  qualityEngineering : "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
-  digitization : "Digitization has revolutionized the way businesses operate. With the increasing use of technology, it has become crucial for businesses to keep up with the latest trends and techniques. At OryxSpace, we provide a range of digitization services to help businesses transform their processes and stay ahead of the competition.",
-  aiMlDataEngineering : "OryxSpace provides innovative solutions to help businesses achieve their digital transformation goals. With services ranging from AI/ML, Analytics, to Data Engineering, our team of experienced professionals uses state-of-the-art tools and techniques to deliver tailored solutions that meet the unique needs of each client",
-  businessProcessServices : "OryxSpace provides innovative solutions to help businesses achieve their digital transformation goals. With services ranging from AI/ML, Analytics, to Data Engineering, our team of experienced professionals uses state-of-the-art tools and techniques to deliver tailored solutions that meet the unique needs of each client",
-  audit : "OryxSpace provides a range of Business Process Services to help organizations streamline their operations, improve customer experience, and optimize their finance and accounting processes. With a focus on process optimization, customer experience management, and financial services, OryxSpace helps businesses operate more efficiently and effectively.",
-  managed : "As businesses increasingly rely on technology to drive their operations, the need for efficient and effective management of IT infrastructure, cloud, network, applications, and databases becomes crucial. OryxSpace Managed Services offers comprehensive and tailored solutions to manage and optimize these critical areas, allowing businesses to focus on their core competencies.",
+  appDevelopment: "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
+  qualityEngineering: "OryxSpace offers a comprehensive range of App Development and Modernization services that cater to businesses' diverse needs. Our expert team of developers, designers, and engineers work with state-of-the-art tools and techniques to deliver tailor-made solutions that align with your business objectives.",
+  digitization: "Digitization has revolutionized the way businesses operate. With the increasing use of technology, it has become crucial for businesses to keep up with the latest trends and techniques. At OryxSpace, we provide a range of digitization services to help businesses transform their processes and stay ahead of the competition.",
+  aiMlDataEngineering: "OryxSpace provides innovative solutions to help businesses achieve their digital transformation goals. With services ranging from AI/ML, Analytics, to Data Engineering, our team of experienced professionals uses state-of-the-art tools and techniques to deliver tailored solutions that meet the unique needs of each client",
+  audit: "OryxSpace provides comprehensive audit services to organizations across various industries. Our team of experienced auditors provides financial, operational, IT, and compliance audits that help clients identify areas of improvement and mitigate risks. We tailor our approach to each client's unique needs, ensuring high-quality and efficient services.",
+  businessProcessServices: "OryxSpace provides a range of Business Process Services to help organizations streamline their operations, improve customer experience, and optimize their finance and accounting processes. With a focus on process optimization, customer experience management, and financial services, OryxSpace helps businesses operate more efficiently and effectively.",
+  managed: "As businesses increasingly rely on technology to drive their operations, the need for efficient and effective management of IT infrastructure, cloud, network, applications, and databases becomes crucial. OryxSpace Managed Services offers comprehensive and tailored solutions to manage and optimize these critical areas, allowing businesses to focus on their core competencies.",
 }
