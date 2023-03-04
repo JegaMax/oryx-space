@@ -29,7 +29,7 @@ export default function OurPartners() {
         {partners.map((logo, index) => (
           <SwiperSlide key={`slide-${index}`}>
             <LogoWrapper className="flexCenter">
-              <ImgStyle src={require('../../assets/img/clients/' + logo.image)} alt={logo.title} />
+              <ImgStyle src={require('../../assets/img/partners/' + logo.image)} alt={logo.title} />
             </LogoWrapper>
           </SwiperSlide>
         ))}

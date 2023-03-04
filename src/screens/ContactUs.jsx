@@ -1,18 +1,10 @@
 import React from 'react';
-import '../../style/section.css';
 import { Box, Typography } from "@mui/material";
-import { aboutUsSections } from '../AppConstants';
-import NavigationTabs from '../Elements/NavigationTabs';
-function AboutUsSection({ param }) {
-    const pageContent = aboutUsSections.find((item) => item['id'] === param);
-
-    const otherSections = aboutUsSections
-        .filter((item) => item['id'] !== param)
-        .map(({ title, url }) => ({ title, url }));
+import Footer from '../components/Elements/Footer';
+function ContactUs({ param }) {
 
     return (
         <>
-            <NavigationTabs navigationLinks={otherSections} />
             <Box
                 sx={{
                     backgroundColor: "rgb(26, 33, 56)",
@@ -115,34 +107,9 @@ function AboutUsSection({ param }) {
                                                         }
                                                     }}
                                                 >
-                                                    {pageContent.title}
+                                                    Contact Us
                                                 </Typography>
                                             </Box>
-                                        </Box>
-                                        <Box
-                                            sx={{
-                                                marginBottom: "24px"
-                                            }}
-                                        >
-                                            {
-                                                pageContent.desc.map((content) => (
-                                                    <Typography
-                                                        variant="h6"
-                                                        gutterBottom
-                                                        component="p"
-                                                        sx={{
-                                                            margin: 0,
-                                                            marginBottom: 1,
-                                                            fontFamily: "Inter, sans-serif",
-                                                            lineHeight: "1.6",
-                                                            color: "rgb(174, 176, 180)",
-                                                            fontWeight: "500",
-                                                            fontSize: "1.125rem"
-                                                        }}
-                                                    >{content}
-                                                    </Typography>
-                                                ))
-                                            }
                                         </Box>
                                     </Box>
                                 </Box>
@@ -216,7 +183,8 @@ function AboutUsSection({ param }) {
                                                     >
                                                         <img
                                                             class="MuiBox-root css-ppo9pa"
-                                                            src={require('../../assets/img/about/' + pageContent.image)}
+                                                            src={require('../assets/img/about/1.png')}
+                                                            alt="contact"
                                                         />
                                                     </span>
                                                 </Box>
@@ -229,8 +197,18 @@ function AboutUsSection({ param }) {
                     </Box>
                 </Box>
             </Box>
+            <Box textAlign={'center'} mt={4}>
+                <Typography sx={{ fontWeight: "bold" }} variant="h3">
+                    We are here to help you!
+                </Typography>
+                <Typography variant="subtitle1">
+                    Let us know what you are looking for and we’ll
+                    promptly get you connected to the right people.
+                </Typography>
+            </Box>
+            <Footer />
         </>
     );
 }
 
-export default AboutUsSection;
+export default ContactUs;

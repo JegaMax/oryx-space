@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import '../../style/section.css';
-import { Box, Grid, Typography, Avatar, Card, Stack } from "@mui/material";
+import { Box, Typography, Avatar, Stack } from "@mui/material";
 import { managedServices, serviceDescriptions } from '../AppConstants';
 import NavigationTabs from '../Elements/NavigationTabs';
 import ServiceHeader from './ServiceHeader';
@@ -28,7 +28,7 @@ function ManagedServiceSection({ param }) {
                 <Stack
                     py="40px"
                     direction={{ xs: "column", sm: "column", md: "row" }}
-                    spacing={{ xs: 2, sm: 3, md: 4 }}
+                    spacing={{ xs: 2, sm: 2, md: 3 }}
                 >
                     {selectedService.categories.map((category) => (
                         <Stack
@@ -37,9 +37,8 @@ function ManagedServiceSection({ param }) {
                             px={{ xs: "10px", sm: "10px", md: "15px" }}
                             py={{ xs: "15px", sm: "25px" }}
                             textAlign={'left'}
-                            data-aos="fade-left" data-aos-duration="2000"
                         >
-                            <Avatar mb="15px" sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)}></Avatar>
+                            <Avatar mb="15px" sx={{ width: 80, height: 80 }} src={require('../../assets/img/service/' + category.image)} data-aos="fade-left" data-aos-duration="2000"></Avatar>
                             <Typography mb="10px" variant="h6" fontWeight="600">
                                 {category.title}
                             </Typography>

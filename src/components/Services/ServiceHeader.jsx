@@ -11,8 +11,8 @@ export default function ServiceHeader({description, image}) {
         height: "60vh",
         padding: "2rem",
         background: `linear-gradient(
-                rgba(255, 255, 255, 0.849),
-                rgba(255, 201, 201, 0.664)
+                rgba(255, 255, 255, 0.50),
+                rgba(255, 201, 201, 0.40)
               ), url(${require(`../../assets/img/service/${image}`)}) center / cover no-repeat`,
     }
 

@@ -14,6 +14,8 @@ import ALMLDataEngineering from "./screens/ALMLDataEngineering.jsx";
 import AuditService from "./screens/AuditService.jsx";
 import BusinessProcess from "./screens/BusinessProcessService.jsx";
 import ManagedService from "./screens/ManagedService.jsx";
+import TopBanner from "./components/Elements/TopBanner.js";
+import ContactUs from "./screens/ContactUs.jsx";
 
 export default function App() {
   useEffect(() => {
@@ -28,12 +30,12 @@ export default function App() {
         <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;600;800&display=swap" rel="stylesheet" />
       </head>
       <BrowserRouter>
-      {/* <HeaderTopNavbar/>
-       */}
+      <TopBanner/>
        <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about-us/:param" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/services/app-development-modernization/:param" element={<SoftwareDevelopment />} />
         <Route path="/services/quality-engineering/:param" element={<QualityEngineering />} />
         <Route path="/services/digitization/:param" element={<Digitalization />} />

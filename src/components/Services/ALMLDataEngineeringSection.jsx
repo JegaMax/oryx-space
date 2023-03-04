@@ -35,7 +35,7 @@ function ALMLDataEngineeringSection({ param }) {
                         {selectedService.desc}
                     </Typography>
                 </Box>
-                <Container sx={{ py: 6 }} maxWidth="lg">
+                <Container sx={{ py:3 }} maxWidth="xl">
                     <Grid container spacing={4} >
                         {selectedService.categories.map((category, index) => (
                             <Grid item xs={12} md={6}>
@@ -45,13 +45,13 @@ function ALMLDataEngineeringSection({ param }) {
                                             <Typography component="h2" variant="h5">
                                                 {category.title}
                                             </Typography>
-                                            <Typography variant="subtitle1" paragraph sx={{ textAlign: 'left' }}>
+                                            <Typography variant="subtitle1" paragraph sx={{ textAlign: 'left', mt:2 }}>
                                                 {category.desc}
                                             </Typography>
                                         </CardContent>
                                         <CardMedia
                                             component="img"
-                                            sx={{ width: 160, display: { xs: 'none', sm: 'block' } }}
+                                            sx={{ width: 200, display: { xs: 'none', sm: 'block' } }}
                                             image={require('../../assets/img/service/' + category.image)}
                                             alt={category.title}
                                         />
